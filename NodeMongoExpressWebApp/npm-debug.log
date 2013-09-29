@@ -1,0 +1,1683 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'app.js' ]
+2 info using npm@1.3.11
+3 info using node@v0.11.8-pre
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'app.js', null ]
+6 verbose cache add name=undefined spec="app.js" args=["app.js",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'app.js',
+7 verbose parsed url   path: 'app.js',
+7 verbose parsed url   href: 'app.js' }
+8 silly lockFile 4a68969e-app-js app.js
+9 verbose lock app.js /Users/nimahajan/.npm/4a68969e-app-js.lock
+10 verbose chmod /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478130492-0.40416701207868755/tmp.tgz 644
+11 verbose tar unpack /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478130492-0.40416701207868755/tmp.tgz
+12 silly lockFile 1b9033c4-0492-0-40416701207868755-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478130492-0.40416701207868755/package
+13 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478130492-0.40416701207868755/package /Users/nimahajan/.npm/1b9033c4-0492-0-40416701207868755-package.lock
+14 silly lockFile 1f612052-0492-0-40416701207868755-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478130492-0.40416701207868755/tmp.tgz
+15 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478130492-0.40416701207868755/tmp.tgz /Users/nimahajan/.npm/1f612052-0492-0-40416701207868755-tmp-tgz.lock
+16 silly gunzTarPerm modes [ '755', '644' ]
+17 error not a package /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478130492-0.40416701207868755/tmp.tgz
+18 silly lockFile 1b9033c4-0492-0-40416701207868755-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478130492-0.40416701207868755/package
+19 silly lockFile 1b9033c4-0492-0-40416701207868755-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478130492-0.40416701207868755/package
+20 silly lockFile 1f612052-0492-0-40416701207868755-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478130492-0.40416701207868755/tmp.tgz
+21 silly lockFile 1f612052-0492-0-40416701207868755-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478130492-0.40416701207868755/tmp.tgz
+22 silly lockFile 4a68969e-app-js app.js
+23 silly lockFile 4a68969e-app-js app.js
+24 verbose addNamed [ 'app.js', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile f582df3f-app-js app.js@
+27 verbose lock app.js@ /Users/nimahajan/.npm/f582df3f-app-js.lock
+28 silly addNameRange { name: 'app.js', range: '*', hasData: false }
+29 verbose url raw app.js
+30 verbose url resolving [ 'https://registry.npmjs.org/', './app.js' ]
+31 verbose url resolved https://registry.npmjs.org/app.js
+32 info trying registry request attempt 1 at 11:08:50
+33 http GET https://registry.npmjs.org/app.js
+34 http 200 https://registry.npmjs.org/app.js
+35 silly registry.get cb [ 200,
+35 silly registry.get   { vary: 'Accept',
+35 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+35 silly registry.get     etag: '"6Y8OBU5O1A8NYEPUNSYJHYW1Q"',
+35 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:51 GMT',
+35 silly registry.get     'content-type': 'application/json',
+35 silly registry.get     'content-length': '22817' } ]
+36 silly addNameRange number 2 { name: 'app.js', range: '*', hasData: true }
+37 silly addNameRange versions [ 'app.js',
+37 silly addNameRange   [ '0.0.1',
+37 silly addNameRange     '0.0.3',
+37 silly addNameRange     '0.0.4',
+37 silly addNameRange     '0.0.5',
+37 silly addNameRange     '0.0.6',
+37 silly addNameRange     '0.0.7',
+37 silly addNameRange     '0.0.8',
+37 silly addNameRange     '0.0.10',
+37 silly addNameRange     '0.0.11',
+37 silly addNameRange     '0.0.12',
+37 silly addNameRange     '0.0.13',
+37 silly addNameRange     '0.0.14',
+37 silly addNameRange     '0.0.15',
+37 silly addNameRange     '0.0.16' ] ]
+38 verbose addNamed [ 'app.js', '0.0.16' ]
+39 verbose addNamed [ '0.0.16', '0.0.16' ]
+40 silly lockFile 08bb8744-app-js-0-0-16 app.js@0.0.16
+41 verbose lock app.js@0.0.16 /Users/nimahajan/.npm/08bb8744-app-js-0-0-16.lock
+42 silly lockFile 6f5faae1-mjs-org-app-js-app-js-0-0-16-tgz https://registry.npmjs.org/app.js/-/app.js-0.0.16.tgz
+43 verbose lock https://registry.npmjs.org/app.js/-/app.js-0.0.16.tgz /Users/nimahajan/.npm/6f5faae1-mjs-org-app-js-app-js-0-0-16-tgz.lock
+44 verbose addRemoteTarball [ 'https://registry.npmjs.org/app.js/-/app.js-0.0.16.tgz',
+44 verbose addRemoteTarball   '4214a30c38e182f050cdb7e29f381eca3f38e58b' ]
+45 info retry fetch attempt 1 at 11:08:51
+46 verbose fetch to= /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/tmp.tgz
+47 http GET https://registry.npmjs.org/app.js/-/app.js-0.0.16.tgz
+48 http 200 https://registry.npmjs.org/app.js/-/app.js-0.0.16.tgz
+49 verbose tar unpack /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/tmp.tgz
+50 silly lockFile 20e944c4-31108-0-8763185783755034-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/package
+51 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/package /Users/nimahajan/.npm/20e944c4-31108-0-8763185783755034-package.lock
+52 silly lockFile 8884c9bb-31108-0-8763185783755034-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/tmp.tgz
+53 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/tmp.tgz /Users/nimahajan/.npm/8884c9bb-31108-0-8763185783755034-tmp-tgz.lock
+54 silly gunzTarPerm modes [ '755', '644' ]
+55 silly gunzTarPerm extractEntry package.json
+56 silly gunzTarPerm extractEntry .npmignore
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm extractEntry LICENSE
+59 silly gunzTarPerm extractEntry jsdomtest.js
+60 silly gunzTarPerm extractEntry bin/appjs
+61 silly gunzTarPerm extractEntry client/appjs-dynamic.js
+62 silly gunzTarPerm extractEntry client/appjs-standalone.js
+63 silly gunzTarPerm extractEntry client/appjs-static.js
+64 silly gunzTarPerm extractEntry client/polyfills/array-indexof.js
+65 silly gunzTarPerm extractEntry client/polyfills/array-isarray.js
+66 silly gunzTarPerm extractEntry client/polyfills/dom-nodelist-sliceable.js
+67 silly gunzTarPerm extractEntry client/polyfills/dom-queryselector.js
+68 silly gunzTarPerm extractEntry client/polyfills/json-parse.js
+69 silly gunzTarPerm extractEntry client/polyfills/string-trim.js
+70 silly gunzTarPerm extractEntry lib/App.js
+71 silly gunzTarPerm extractEntry lib/appjs.js
+72 silly gunzTarPerm extractEntry lib/pkg.js
+73 silly gunzTarPerm extractEntry lib/Renderer.js
+74 silly gunzTarPerm extractEntry lib/utils.js
+75 silly gunzTarPerm extractEntry Makefile
+76 silly gunzTarPerm extractEntry test/appjs-test.js
+77 silly gunzTarPerm extractEntry test/modules/testmod1/package.json
+78 silly gunzTarPerm extractEntry test/modules/testmod1/lib/dep1.js
+79 silly gunzTarPerm extractEntry test/modules/testmod1/lib/dep2.js
+80 silly gunzTarPerm extractEntry test/modules/testmod1/lib/testmod1.js
+81 silly lockFile 20e944c4-31108-0-8763185783755034-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/package
+82 silly lockFile 20e944c4-31108-0-8763185783755034-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/package
+83 silly lockFile 8884c9bb-31108-0-8763185783755034-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/tmp.tgz
+84 silly lockFile 8884c9bb-31108-0-8763185783755034-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/tmp.tgz
+85 verbose tar pack [ '/Users/nimahajan/.npm/app.js/0.0.16/package.tgz',
+85 verbose tar pack   '/var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/package' ]
+86 verbose tarball /Users/nimahajan/.npm/app.js/0.0.16/package.tgz
+87 verbose folder /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/package
+88 silly lockFile 20e944c4-31108-0-8763185783755034-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/package
+89 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/package /Users/nimahajan/.npm/20e944c4-31108-0-8763185783755034-package.lock
+90 silly lockFile 75b5f112-an-npm-app-js-0-0-16-package-tgz tar:///Users/nimahajan/.npm/app.js/0.0.16/package.tgz
+91 verbose lock tar:///Users/nimahajan/.npm/app.js/0.0.16/package.tgz /Users/nimahajan/.npm/75b5f112-an-npm-app-js-0-0-16-package-tgz.lock
+92 silly lockFile 20e944c4-31108-0-8763185783755034-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/package
+93 silly lockFile 20e944c4-31108-0-8763185783755034-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478131108-0.8763185783755034/package
+94 silly lockFile 75b5f112-an-npm-app-js-0-0-16-package-tgz tar:///Users/nimahajan/.npm/app.js/0.0.16/package.tgz
+95 silly lockFile 75b5f112-an-npm-app-js-0-0-16-package-tgz tar:///Users/nimahajan/.npm/app.js/0.0.16/package.tgz
+96 silly lockFile bb492b0c-ahajan-npm-app-js-0-0-16-package /Users/nimahajan/.npm/app.js/0.0.16/package
+97 verbose lock /Users/nimahajan/.npm/app.js/0.0.16/package /Users/nimahajan/.npm/bb492b0c-ahajan-npm-app-js-0-0-16-package.lock
+98 silly lockFile bb492b0c-ahajan-npm-app-js-0-0-16-package /Users/nimahajan/.npm/app.js/0.0.16/package
+99 silly lockFile bb492b0c-ahajan-npm-app-js-0-0-16-package /Users/nimahajan/.npm/app.js/0.0.16/package
+100 verbose tar unpack /Users/nimahajan/.npm/app.js/0.0.16/package.tgz
+101 silly lockFile 72828bea-ahajan-npm-app-js-0-0-16-package tar:///Users/nimahajan/.npm/app.js/0.0.16/package
+102 verbose lock tar:///Users/nimahajan/.npm/app.js/0.0.16/package /Users/nimahajan/.npm/72828bea-ahajan-npm-app-js-0-0-16-package.lock
+103 silly lockFile 75b5f112-an-npm-app-js-0-0-16-package-tgz tar:///Users/nimahajan/.npm/app.js/0.0.16/package.tgz
+104 verbose lock tar:///Users/nimahajan/.npm/app.js/0.0.16/package.tgz /Users/nimahajan/.npm/75b5f112-an-npm-app-js-0-0-16-package-tgz.lock
+105 silly gunzTarPerm modes [ '755', '644' ]
+106 silly gunzTarPerm extractEntry package.json
+107 silly gunzTarPerm extractEntry .npmignore
+108 silly gunzTarPerm extractEntry README.md
+109 silly gunzTarPerm extractEntry LICENSE
+110 silly gunzTarPerm extractEntry jsdomtest.js
+111 silly gunzTarPerm extractEntry Makefile
+112 silly gunzTarPerm extractEntry bin/appjs
+113 silly gunzTarPerm extractEntry client/appjs-dynamic.js
+114 silly gunzTarPerm extractEntry client/appjs-standalone.js
+115 silly gunzTarPerm extractEntry client/appjs-static.js
+116 silly gunzTarPerm extractEntry client/polyfills/array-indexof.js
+117 silly gunzTarPerm extractEntry client/polyfills/array-isarray.js
+118 silly gunzTarPerm extractEntry client/polyfills/dom-nodelist-sliceable.js
+119 silly gunzTarPerm extractEntry client/polyfills/dom-queryselector.js
+120 silly gunzTarPerm extractEntry client/polyfills/json-parse.js
+121 silly gunzTarPerm extractEntry client/polyfills/string-trim.js
+122 silly gunzTarPerm extractEntry lib/App.js
+123 silly gunzTarPerm extractEntry lib/Renderer.js
+124 silly gunzTarPerm extractEntry lib/appjs.js
+125 silly gunzTarPerm extractEntry lib/pkg.js
+126 silly gunzTarPerm extractEntry lib/utils.js
+127 silly gunzTarPerm extractEntry test/appjs-test.js
+128 silly gunzTarPerm extractEntry test/modules/testmod1/package.json
+129 silly gunzTarPerm extractEntry test/modules/testmod1/lib/dep1.js
+130 silly gunzTarPerm extractEntry test/modules/testmod1/lib/dep2.js
+131 silly gunzTarPerm extractEntry test/modules/testmod1/lib/testmod1.js
+132 silly lockFile 72828bea-ahajan-npm-app-js-0-0-16-package tar:///Users/nimahajan/.npm/app.js/0.0.16/package
+133 silly lockFile 72828bea-ahajan-npm-app-js-0-0-16-package tar:///Users/nimahajan/.npm/app.js/0.0.16/package
+134 silly lockFile 75b5f112-an-npm-app-js-0-0-16-package-tgz tar:///Users/nimahajan/.npm/app.js/0.0.16/package.tgz
+135 silly lockFile 75b5f112-an-npm-app-js-0-0-16-package-tgz tar:///Users/nimahajan/.npm/app.js/0.0.16/package.tgz
+136 verbose chmod /Users/nimahajan/.npm/app.js/0.0.16/package.tgz 644
+137 verbose chown /Users/nimahajan/.npm/app.js/0.0.16/package.tgz [ 501, 20 ]
+138 silly lockFile 6f5faae1-mjs-org-app-js-app-js-0-0-16-tgz https://registry.npmjs.org/app.js/-/app.js-0.0.16.tgz
+139 silly lockFile 6f5faae1-mjs-org-app-js-app-js-0-0-16-tgz https://registry.npmjs.org/app.js/-/app.js-0.0.16.tgz
+140 silly lockFile 08bb8744-app-js-0-0-16 app.js@0.0.16
+141 silly lockFile 08bb8744-app-js-0-0-16 app.js@0.0.16
+142 silly lockFile f582df3f-app-js app.js@
+143 silly lockFile f582df3f-app-js app.js@
+144 silly resolved [ { name: 'app.js',
+144 silly resolved     description: 'Packages Node modules as browser apps.',
+144 silly resolved     version: '0.0.16',
+144 silly resolved     homepage: 'http://github.com/joehewitt/app.js',
+144 silly resolved     repository: { type: 'git', url: 'git://github.com/joehewitt/app.js.git' },
+144 silly resolved     keywords: [ 'compressor' ],
+144 silly resolved     author: { name: 'Joe Hewitt', email: 'joe@joehewitt.com' },
+144 silly resolved     contributors: [],
+144 silly resolved     dependencies:
+144 silly resolved      { async: '',
+144 silly resolved        cssmin: '',
+144 silly resolved        express: '2.5.9',
+144 silly resolved        jsdom: '0.2.2',
+144 silly resolved        mime: '',
+144 silly resolved        optimist: '',
+144 silly resolved        'uglify-js': '',
+144 silly resolved        underscore: '',
+144 silly resolved        vows: '>=0.5.4',
+144 silly resolved        dandy: '',
+144 silly resolved        diskcache: '',
+144 silly resolved        hascan: '',
+144 silly resolved        'express-store': '',
+144 silly resolved        'express-logger': '',
+144 silly resolved        'express-rewrite': '',
+144 silly resolved        transformjs: '' },
+144 silly resolved     bin: { appjs: './bin/appjs' },
+144 silly resolved     main: './lib/appjs',
+144 silly resolved     directories: { test: './test' },
+144 silly resolved     engines: { node: '>=0.4.0' },
+144 silly resolved     devDependencies: {},
+144 silly resolved     optionalDependencies: {},
+144 silly resolved     readme: 'app.js\n========\n\nTurns Node.js modules into web apps and optionally serves them for you too.\n\nStatus\n------\n\nApp.js is a work-in-progress and is only intended for my personal use at this time.\n\nInstallation\n------------\n\n    $ npm install app.js\n\nLicense \n-------\n\nCopyright 2011 Joe Hewitt\n\nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n \n   http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an "AS IS" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n',
+144 silly resolved     readmeFilename: 'README.md',
+144 silly resolved     bugs: { url: 'https://github.com/joehewitt/app.js/issues' },
+144 silly resolved     _id: 'app.js@0.0.16',
+144 silly resolved     dist: { shasum: '15afa1c36688c17c09f8b2b9aa480f7201b7f3a5' },
+144 silly resolved     _from: 'app.js@',
+144 silly resolved     _resolved: 'https://registry.npmjs.org/app.js/-/app.js-0.0.16.tgz' } ]
+145 info install app.js@0.0.16 into /Users/nimahajan/Desktop/Hapus/node/NodeMongoExpressWebApp
+146 info installOne app.js@0.0.16
+147 info /Users/nimahajan/Desktop/Hapus/node/NodeMongoExpressWebApp/node_modules/app.js unbuild
+148 verbose tar unpack /Users/nimahajan/.npm/app.js/0.0.16/package.tgz
+149 silly lockFile 11183314-xpressWebApp-node-modules-app-js tar:///Users/nimahajan/Desktop/Hapus/node/NodeMongoExpressWebApp/node_modules/app.js
+150 verbose lock tar:///Users/nimahajan/Desktop/Hapus/node/NodeMongoExpressWebApp/node_modules/app.js /Users/nimahajan/.npm/11183314-xpressWebApp-node-modules-app-js.lock
+151 silly lockFile 75b5f112-an-npm-app-js-0-0-16-package-tgz tar:///Users/nimahajan/.npm/app.js/0.0.16/package.tgz
+152 verbose lock tar:///Users/nimahajan/.npm/app.js/0.0.16/package.tgz /Users/nimahajan/.npm/75b5f112-an-npm-app-js-0-0-16-package-tgz.lock
+153 silly gunzTarPerm modes [ '755', '644' ]
+154 silly gunzTarPerm extractEntry package.json
+155 silly gunzTarPerm extractEntry .npmignore
+156 silly gunzTarPerm extractEntry README.md
+157 silly gunzTarPerm extractEntry LICENSE
+158 silly gunzTarPerm extractEntry jsdomtest.js
+159 silly gunzTarPerm extractEntry Makefile
+160 silly gunzTarPerm extractEntry bin/appjs
+161 silly gunzTarPerm extractEntry client/appjs-dynamic.js
+162 silly gunzTarPerm extractEntry client/appjs-standalone.js
+163 silly gunzTarPerm extractEntry client/appjs-static.js
+164 silly gunzTarPerm extractEntry client/polyfills/array-indexof.js
+165 silly gunzTarPerm extractEntry client/polyfills/array-isarray.js
+166 silly gunzTarPerm extractEntry client/polyfills/dom-nodelist-sliceable.js
+167 silly gunzTarPerm extractEntry client/polyfills/dom-queryselector.js
+168 silly gunzTarPerm extractEntry client/polyfills/json-parse.js
+169 silly gunzTarPerm extractEntry client/polyfills/string-trim.js
+170 silly gunzTarPerm extractEntry lib/App.js
+171 silly gunzTarPerm extractEntry lib/Renderer.js
+172 silly gunzTarPerm extractEntry lib/appjs.js
+173 silly gunzTarPerm extractEntry lib/pkg.js
+174 silly gunzTarPerm extractEntry lib/utils.js
+175 silly gunzTarPerm extractEntry test/appjs-test.js
+176 silly gunzTarPerm extractEntry test/modules/testmod1/package.json
+177 silly gunzTarPerm extractEntry test/modules/testmod1/lib/dep1.js
+178 silly gunzTarPerm extractEntry test/modules/testmod1/lib/dep2.js
+179 silly gunzTarPerm extractEntry test/modules/testmod1/lib/testmod1.js
+180 silly lockFile 11183314-xpressWebApp-node-modules-app-js tar:///Users/nimahajan/Desktop/Hapus/node/NodeMongoExpressWebApp/node_modules/app.js
+181 silly lockFile 11183314-xpressWebApp-node-modules-app-js tar:///Users/nimahajan/Desktop/Hapus/node/NodeMongoExpressWebApp/node_modules/app.js
+182 silly lockFile 75b5f112-an-npm-app-js-0-0-16-package-tgz tar:///Users/nimahajan/.npm/app.js/0.0.16/package.tgz
+183 silly lockFile 75b5f112-an-npm-app-js-0-0-16-package-tgz tar:///Users/nimahajan/.npm/app.js/0.0.16/package.tgz
+184 info preinstall app.js@0.0.16
+185 verbose readDependencies using package.json deps
+186 verbose readDependencies using package.json deps
+187 verbose cache add [ 'express@2.5.9', null ]
+188 verbose cache add name=undefined spec="express@2.5.9" args=["express@2.5.9",null]
+189 verbose parsed url { protocol: null,
+189 verbose parsed url   slashes: null,
+189 verbose parsed url   auth: null,
+189 verbose parsed url   host: null,
+189 verbose parsed url   port: null,
+189 verbose parsed url   hostname: null,
+189 verbose parsed url   hash: null,
+189 verbose parsed url   search: null,
+189 verbose parsed url   query: null,
+189 verbose parsed url   pathname: 'express@2.5.9',
+189 verbose parsed url   path: 'express@2.5.9',
+189 verbose parsed url   href: 'express@2.5.9' }
+190 verbose cache add name="express" spec="2.5.9" args=["express","2.5.9"]
+191 verbose parsed url { protocol: null,
+191 verbose parsed url   slashes: null,
+191 verbose parsed url   auth: null,
+191 verbose parsed url   host: null,
+191 verbose parsed url   port: null,
+191 verbose parsed url   hostname: null,
+191 verbose parsed url   hash: null,
+191 verbose parsed url   search: null,
+191 verbose parsed url   query: null,
+191 verbose parsed url   pathname: '2.5.9',
+191 verbose parsed url   path: '2.5.9',
+191 verbose parsed url   href: '2.5.9' }
+192 verbose addNamed [ 'express', '2.5.9' ]
+193 verbose addNamed [ '2.5.9', '2.5.9' ]
+194 silly lockFile b342ec4f-express-2-5-9 express@2.5.9
+195 verbose lock express@2.5.9 /Users/nimahajan/.npm/b342ec4f-express-2-5-9.lock
+196 verbose cache add [ 'jsdom@0.2.2', null ]
+197 verbose cache add name=undefined spec="jsdom@0.2.2" args=["jsdom@0.2.2",null]
+198 verbose parsed url { protocol: null,
+198 verbose parsed url   slashes: null,
+198 verbose parsed url   auth: null,
+198 verbose parsed url   host: null,
+198 verbose parsed url   port: null,
+198 verbose parsed url   hostname: null,
+198 verbose parsed url   hash: null,
+198 verbose parsed url   search: null,
+198 verbose parsed url   query: null,
+198 verbose parsed url   pathname: 'jsdom@0.2.2',
+198 verbose parsed url   path: 'jsdom@0.2.2',
+198 verbose parsed url   href: 'jsdom@0.2.2' }
+199 verbose cache add name="jsdom" spec="0.2.2" args=["jsdom","0.2.2"]
+200 verbose parsed url { protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: '0.2.2',
+200 verbose parsed url   path: '0.2.2',
+200 verbose parsed url   href: '0.2.2' }
+201 verbose addNamed [ 'jsdom', '0.2.2' ]
+202 verbose addNamed [ '0.2.2', '0.2.2' ]
+203 silly lockFile fa07a476-jsdom-0-2-2 jsdom@0.2.2
+204 verbose lock jsdom@0.2.2 /Users/nimahajan/.npm/fa07a476-jsdom-0-2-2.lock
+205 verbose cache add [ 'mime@', null ]
+206 verbose cache add name=undefined spec="mime@" args=["mime@",null]
+207 verbose parsed url { protocol: null,
+207 verbose parsed url   slashes: null,
+207 verbose parsed url   auth: null,
+207 verbose parsed url   host: null,
+207 verbose parsed url   port: null,
+207 verbose parsed url   hostname: null,
+207 verbose parsed url   hash: null,
+207 verbose parsed url   search: null,
+207 verbose parsed url   query: null,
+207 verbose parsed url   pathname: 'mime@',
+207 verbose parsed url   path: 'mime@',
+207 verbose parsed url   href: 'mime@' }
+208 verbose cache add name="mime" spec="" args=["mime",""]
+209 verbose parsed url { protocol: null,
+209 verbose parsed url   slashes: null,
+209 verbose parsed url   auth: null,
+209 verbose parsed url   host: null,
+209 verbose parsed url   port: null,
+209 verbose parsed url   hostname: null,
+209 verbose parsed url   hash: null,
+209 verbose parsed url   search: null,
+209 verbose parsed url   query: null,
+209 verbose parsed url   pathname: null,
+209 verbose parsed url   path: null,
+209 verbose parsed url   href: '' }
+210 verbose addNamed [ 'mime', '' ]
+211 verbose addNamed [ null, '*' ]
+212 silly lockFile 997db655-mime mime@
+213 verbose lock mime@ /Users/nimahajan/.npm/997db655-mime.lock
+214 verbose cache add [ 'optimist@', null ]
+215 verbose cache add name=undefined spec="optimist@" args=["optimist@",null]
+216 verbose parsed url { protocol: null,
+216 verbose parsed url   slashes: null,
+216 verbose parsed url   auth: null,
+216 verbose parsed url   host: null,
+216 verbose parsed url   port: null,
+216 verbose parsed url   hostname: null,
+216 verbose parsed url   hash: null,
+216 verbose parsed url   search: null,
+216 verbose parsed url   query: null,
+216 verbose parsed url   pathname: 'optimist@',
+216 verbose parsed url   path: 'optimist@',
+216 verbose parsed url   href: 'optimist@' }
+217 verbose cache add name="optimist" spec="" args=["optimist",""]
+218 verbose parsed url { protocol: null,
+218 verbose parsed url   slashes: null,
+218 verbose parsed url   auth: null,
+218 verbose parsed url   host: null,
+218 verbose parsed url   port: null,
+218 verbose parsed url   hostname: null,
+218 verbose parsed url   hash: null,
+218 verbose parsed url   search: null,
+218 verbose parsed url   query: null,
+218 verbose parsed url   pathname: null,
+218 verbose parsed url   path: null,
+218 verbose parsed url   href: '' }
+219 verbose addNamed [ 'optimist', '' ]
+220 verbose addNamed [ null, '*' ]
+221 silly lockFile 4b6c7f79-optimist optimist@
+222 verbose lock optimist@ /Users/nimahajan/.npm/4b6c7f79-optimist.lock
+223 verbose url raw express/2.5.9
+224 verbose url resolving [ 'https://registry.npmjs.org/', './express/2.5.9' ]
+225 verbose url resolved https://registry.npmjs.org/express/2.5.9
+226 info trying registry request attempt 1 at 11:08:51
+227 http GET https://registry.npmjs.org/express/2.5.9
+228 verbose cache add [ 'uglify-js@', null ]
+229 verbose cache add name=undefined spec="uglify-js@" args=["uglify-js@",null]
+230 verbose parsed url { protocol: null,
+230 verbose parsed url   slashes: null,
+230 verbose parsed url   auth: null,
+230 verbose parsed url   host: null,
+230 verbose parsed url   port: null,
+230 verbose parsed url   hostname: null,
+230 verbose parsed url   hash: null,
+230 verbose parsed url   search: null,
+230 verbose parsed url   query: null,
+230 verbose parsed url   pathname: 'uglify-js@',
+230 verbose parsed url   path: 'uglify-js@',
+230 verbose parsed url   href: 'uglify-js@' }
+231 verbose cache add name="uglify-js" spec="" args=["uglify-js",""]
+232 verbose parsed url { protocol: null,
+232 verbose parsed url   slashes: null,
+232 verbose parsed url   auth: null,
+232 verbose parsed url   host: null,
+232 verbose parsed url   port: null,
+232 verbose parsed url   hostname: null,
+232 verbose parsed url   hash: null,
+232 verbose parsed url   search: null,
+232 verbose parsed url   query: null,
+232 verbose parsed url   pathname: null,
+232 verbose parsed url   path: null,
+232 verbose parsed url   href: '' }
+233 verbose addNamed [ 'uglify-js', '' ]
+234 verbose addNamed [ null, '*' ]
+235 silly lockFile 679a1028-uglify-js uglify-js@
+236 verbose lock uglify-js@ /Users/nimahajan/.npm/679a1028-uglify-js.lock
+237 verbose cache add [ 'underscore@', null ]
+238 verbose cache add name=undefined spec="underscore@" args=["underscore@",null]
+239 verbose parsed url { protocol: null,
+239 verbose parsed url   slashes: null,
+239 verbose parsed url   auth: null,
+239 verbose parsed url   host: null,
+239 verbose parsed url   port: null,
+239 verbose parsed url   hostname: null,
+239 verbose parsed url   hash: null,
+239 verbose parsed url   search: null,
+239 verbose parsed url   query: null,
+239 verbose parsed url   pathname: 'underscore@',
+239 verbose parsed url   path: 'underscore@',
+239 verbose parsed url   href: 'underscore@' }
+240 verbose cache add name="underscore" spec="" args=["underscore",""]
+241 verbose parsed url { protocol: null,
+241 verbose parsed url   slashes: null,
+241 verbose parsed url   auth: null,
+241 verbose parsed url   host: null,
+241 verbose parsed url   port: null,
+241 verbose parsed url   hostname: null,
+241 verbose parsed url   hash: null,
+241 verbose parsed url   search: null,
+241 verbose parsed url   query: null,
+241 verbose parsed url   pathname: null,
+241 verbose parsed url   path: null,
+241 verbose parsed url   href: '' }
+242 verbose addNamed [ 'underscore', '' ]
+243 verbose addNamed [ null, '*' ]
+244 silly lockFile 7629b758-underscore underscore@
+245 verbose lock underscore@ /Users/nimahajan/.npm/7629b758-underscore.lock
+246 verbose cache add [ 'vows@>=0.5.4', null ]
+247 verbose cache add name=undefined spec="vows@>=0.5.4" args=["vows@>=0.5.4",null]
+248 verbose parsed url { protocol: null,
+248 verbose parsed url   slashes: null,
+248 verbose parsed url   auth: null,
+248 verbose parsed url   host: null,
+248 verbose parsed url   port: null,
+248 verbose parsed url   hostname: null,
+248 verbose parsed url   hash: null,
+248 verbose parsed url   search: null,
+248 verbose parsed url   query: null,
+248 verbose parsed url   pathname: 'vows@%3E=0.5.4',
+248 verbose parsed url   path: 'vows@%3E=0.5.4',
+248 verbose parsed url   href: 'vows@%3E=0.5.4' }
+249 verbose cache add name="vows" spec=">=0.5.4" args=["vows",">=0.5.4"]
+250 verbose parsed url { protocol: null,
+250 verbose parsed url   slashes: null,
+250 verbose parsed url   auth: null,
+250 verbose parsed url   host: null,
+250 verbose parsed url   port: null,
+250 verbose parsed url   hostname: null,
+250 verbose parsed url   hash: null,
+250 verbose parsed url   search: null,
+250 verbose parsed url   query: null,
+250 verbose parsed url   pathname: '%3E=0.5.4',
+250 verbose parsed url   path: '%3E=0.5.4',
+250 verbose parsed url   href: '%3E=0.5.4' }
+251 verbose addNamed [ 'vows', '>=0.5.4' ]
+252 verbose addNamed [ null, '>=0.5.4' ]
+253 silly lockFile 24d43a5d-vows-0-5-4 vows@>=0.5.4
+254 verbose lock vows@>=0.5.4 /Users/nimahajan/.npm/24d43a5d-vows-0-5-4.lock
+255 verbose cache add [ 'dandy@', null ]
+256 verbose cache add name=undefined spec="dandy@" args=["dandy@",null]
+257 verbose parsed url { protocol: null,
+257 verbose parsed url   slashes: null,
+257 verbose parsed url   auth: null,
+257 verbose parsed url   host: null,
+257 verbose parsed url   port: null,
+257 verbose parsed url   hostname: null,
+257 verbose parsed url   hash: null,
+257 verbose parsed url   search: null,
+257 verbose parsed url   query: null,
+257 verbose parsed url   pathname: 'dandy@',
+257 verbose parsed url   path: 'dandy@',
+257 verbose parsed url   href: 'dandy@' }
+258 verbose cache add name="dandy" spec="" args=["dandy",""]
+259 verbose parsed url { protocol: null,
+259 verbose parsed url   slashes: null,
+259 verbose parsed url   auth: null,
+259 verbose parsed url   host: null,
+259 verbose parsed url   port: null,
+259 verbose parsed url   hostname: null,
+259 verbose parsed url   hash: null,
+259 verbose parsed url   search: null,
+259 verbose parsed url   query: null,
+259 verbose parsed url   pathname: null,
+259 verbose parsed url   path: null,
+259 verbose parsed url   href: '' }
+260 verbose addNamed [ 'dandy', '' ]
+261 verbose addNamed [ null, '*' ]
+262 silly lockFile d8346ec4-dandy dandy@
+263 verbose lock dandy@ /Users/nimahajan/.npm/d8346ec4-dandy.lock
+264 verbose cache add [ 'diskcache@', null ]
+265 verbose cache add name=undefined spec="diskcache@" args=["diskcache@",null]
+266 verbose parsed url { protocol: null,
+266 verbose parsed url   slashes: null,
+266 verbose parsed url   auth: null,
+266 verbose parsed url   host: null,
+266 verbose parsed url   port: null,
+266 verbose parsed url   hostname: null,
+266 verbose parsed url   hash: null,
+266 verbose parsed url   search: null,
+266 verbose parsed url   query: null,
+266 verbose parsed url   pathname: 'diskcache@',
+266 verbose parsed url   path: 'diskcache@',
+266 verbose parsed url   href: 'diskcache@' }
+267 verbose cache add name="diskcache" spec="" args=["diskcache",""]
+268 verbose parsed url { protocol: null,
+268 verbose parsed url   slashes: null,
+268 verbose parsed url   auth: null,
+268 verbose parsed url   host: null,
+268 verbose parsed url   port: null,
+268 verbose parsed url   hostname: null,
+268 verbose parsed url   hash: null,
+268 verbose parsed url   search: null,
+268 verbose parsed url   query: null,
+268 verbose parsed url   pathname: null,
+268 verbose parsed url   path: null,
+268 verbose parsed url   href: '' }
+269 verbose addNamed [ 'diskcache', '' ]
+270 verbose addNamed [ null, '*' ]
+271 silly lockFile 9c673643-diskcache diskcache@
+272 verbose lock diskcache@ /Users/nimahajan/.npm/9c673643-diskcache.lock
+273 verbose cache add [ 'hascan@', null ]
+274 verbose cache add name=undefined spec="hascan@" args=["hascan@",null]
+275 verbose parsed url { protocol: null,
+275 verbose parsed url   slashes: null,
+275 verbose parsed url   auth: null,
+275 verbose parsed url   host: null,
+275 verbose parsed url   port: null,
+275 verbose parsed url   hostname: null,
+275 verbose parsed url   hash: null,
+275 verbose parsed url   search: null,
+275 verbose parsed url   query: null,
+275 verbose parsed url   pathname: 'hascan@',
+275 verbose parsed url   path: 'hascan@',
+275 verbose parsed url   href: 'hascan@' }
+276 verbose cache add name="hascan" spec="" args=["hascan",""]
+277 verbose parsed url { protocol: null,
+277 verbose parsed url   slashes: null,
+277 verbose parsed url   auth: null,
+277 verbose parsed url   host: null,
+277 verbose parsed url   port: null,
+277 verbose parsed url   hostname: null,
+277 verbose parsed url   hash: null,
+277 verbose parsed url   search: null,
+277 verbose parsed url   query: null,
+277 verbose parsed url   pathname: null,
+277 verbose parsed url   path: null,
+277 verbose parsed url   href: '' }
+278 verbose addNamed [ 'hascan', '' ]
+279 verbose addNamed [ null, '*' ]
+280 silly lockFile 1431788a-hascan hascan@
+281 verbose lock hascan@ /Users/nimahajan/.npm/1431788a-hascan.lock
+282 verbose cache add [ 'express-store@', null ]
+283 verbose cache add name=undefined spec="express-store@" args=["express-store@",null]
+284 verbose parsed url { protocol: null,
+284 verbose parsed url   slashes: null,
+284 verbose parsed url   auth: null,
+284 verbose parsed url   host: null,
+284 verbose parsed url   port: null,
+284 verbose parsed url   hostname: null,
+284 verbose parsed url   hash: null,
+284 verbose parsed url   search: null,
+284 verbose parsed url   query: null,
+284 verbose parsed url   pathname: 'express-store@',
+284 verbose parsed url   path: 'express-store@',
+284 verbose parsed url   href: 'express-store@' }
+285 verbose cache add name="express-store" spec="" args=["express-store",""]
+286 verbose parsed url { protocol: null,
+286 verbose parsed url   slashes: null,
+286 verbose parsed url   auth: null,
+286 verbose parsed url   host: null,
+286 verbose parsed url   port: null,
+286 verbose parsed url   hostname: null,
+286 verbose parsed url   hash: null,
+286 verbose parsed url   search: null,
+286 verbose parsed url   query: null,
+286 verbose parsed url   pathname: null,
+286 verbose parsed url   path: null,
+286 verbose parsed url   href: '' }
+287 verbose addNamed [ 'express-store', '' ]
+288 verbose addNamed [ null, '*' ]
+289 silly lockFile 3edca7bf-express-store express-store@
+290 verbose lock express-store@ /Users/nimahajan/.npm/3edca7bf-express-store.lock
+291 verbose cache add [ 'express-logger@', null ]
+292 verbose cache add name=undefined spec="express-logger@" args=["express-logger@",null]
+293 verbose parsed url { protocol: null,
+293 verbose parsed url   slashes: null,
+293 verbose parsed url   auth: null,
+293 verbose parsed url   host: null,
+293 verbose parsed url   port: null,
+293 verbose parsed url   hostname: null,
+293 verbose parsed url   hash: null,
+293 verbose parsed url   search: null,
+293 verbose parsed url   query: null,
+293 verbose parsed url   pathname: 'express-logger@',
+293 verbose parsed url   path: 'express-logger@',
+293 verbose parsed url   href: 'express-logger@' }
+294 verbose cache add name="express-logger" spec="" args=["express-logger",""]
+295 verbose parsed url { protocol: null,
+295 verbose parsed url   slashes: null,
+295 verbose parsed url   auth: null,
+295 verbose parsed url   host: null,
+295 verbose parsed url   port: null,
+295 verbose parsed url   hostname: null,
+295 verbose parsed url   hash: null,
+295 verbose parsed url   search: null,
+295 verbose parsed url   query: null,
+295 verbose parsed url   pathname: null,
+295 verbose parsed url   path: null,
+295 verbose parsed url   href: '' }
+296 verbose addNamed [ 'express-logger', '' ]
+297 verbose addNamed [ null, '*' ]
+298 silly lockFile 00af04ae-express-logger express-logger@
+299 verbose lock express-logger@ /Users/nimahajan/.npm/00af04ae-express-logger.lock
+300 verbose cache add [ 'express-rewrite@', null ]
+301 verbose cache add name=undefined spec="express-rewrite@" args=["express-rewrite@",null]
+302 verbose parsed url { protocol: null,
+302 verbose parsed url   slashes: null,
+302 verbose parsed url   auth: null,
+302 verbose parsed url   host: null,
+302 verbose parsed url   port: null,
+302 verbose parsed url   hostname: null,
+302 verbose parsed url   hash: null,
+302 verbose parsed url   search: null,
+302 verbose parsed url   query: null,
+302 verbose parsed url   pathname: 'express-rewrite@',
+302 verbose parsed url   path: 'express-rewrite@',
+302 verbose parsed url   href: 'express-rewrite@' }
+303 verbose cache add name="express-rewrite" spec="" args=["express-rewrite",""]
+304 verbose parsed url { protocol: null,
+304 verbose parsed url   slashes: null,
+304 verbose parsed url   auth: null,
+304 verbose parsed url   host: null,
+304 verbose parsed url   port: null,
+304 verbose parsed url   hostname: null,
+304 verbose parsed url   hash: null,
+304 verbose parsed url   search: null,
+304 verbose parsed url   query: null,
+304 verbose parsed url   pathname: null,
+304 verbose parsed url   path: null,
+304 verbose parsed url   href: '' }
+305 verbose addNamed [ 'express-rewrite', '' ]
+306 verbose addNamed [ null, '*' ]
+307 silly lockFile f6dffb57-express-rewrite express-rewrite@
+308 verbose lock express-rewrite@ /Users/nimahajan/.npm/f6dffb57-express-rewrite.lock
+309 verbose cache add [ 'transformjs@', null ]
+310 verbose cache add name=undefined spec="transformjs@" args=["transformjs@",null]
+311 verbose parsed url { protocol: null,
+311 verbose parsed url   slashes: null,
+311 verbose parsed url   auth: null,
+311 verbose parsed url   host: null,
+311 verbose parsed url   port: null,
+311 verbose parsed url   hostname: null,
+311 verbose parsed url   hash: null,
+311 verbose parsed url   search: null,
+311 verbose parsed url   query: null,
+311 verbose parsed url   pathname: 'transformjs@',
+311 verbose parsed url   path: 'transformjs@',
+311 verbose parsed url   href: 'transformjs@' }
+312 verbose cache add name="transformjs" spec="" args=["transformjs",""]
+313 verbose parsed url { protocol: null,
+313 verbose parsed url   slashes: null,
+313 verbose parsed url   auth: null,
+313 verbose parsed url   host: null,
+313 verbose parsed url   port: null,
+313 verbose parsed url   hostname: null,
+313 verbose parsed url   hash: null,
+313 verbose parsed url   search: null,
+313 verbose parsed url   query: null,
+313 verbose parsed url   pathname: null,
+313 verbose parsed url   path: null,
+313 verbose parsed url   href: '' }
+314 verbose addNamed [ 'transformjs', '' ]
+315 verbose addNamed [ null, '*' ]
+316 silly lockFile 23b70530-transformjs transformjs@
+317 verbose lock transformjs@ /Users/nimahajan/.npm/23b70530-transformjs.lock
+318 verbose cache add [ 'async@', null ]
+319 verbose cache add name=undefined spec="async@" args=["async@",null]
+320 verbose parsed url { protocol: null,
+320 verbose parsed url   slashes: null,
+320 verbose parsed url   auth: null,
+320 verbose parsed url   host: null,
+320 verbose parsed url   port: null,
+320 verbose parsed url   hostname: null,
+320 verbose parsed url   hash: null,
+320 verbose parsed url   search: null,
+320 verbose parsed url   query: null,
+320 verbose parsed url   pathname: 'async@',
+320 verbose parsed url   path: 'async@',
+320 verbose parsed url   href: 'async@' }
+321 verbose cache add name="async" spec="" args=["async",""]
+322 verbose parsed url { protocol: null,
+322 verbose parsed url   slashes: null,
+322 verbose parsed url   auth: null,
+322 verbose parsed url   host: null,
+322 verbose parsed url   port: null,
+322 verbose parsed url   hostname: null,
+322 verbose parsed url   hash: null,
+322 verbose parsed url   search: null,
+322 verbose parsed url   query: null,
+322 verbose parsed url   pathname: null,
+322 verbose parsed url   path: null,
+322 verbose parsed url   href: '' }
+323 verbose addNamed [ 'async', '' ]
+324 verbose addNamed [ null, '*' ]
+325 silly lockFile f9113900-async async@
+326 verbose lock async@ /Users/nimahajan/.npm/f9113900-async.lock
+327 verbose cache add [ 'cssmin@', null ]
+328 verbose cache add name=undefined spec="cssmin@" args=["cssmin@",null]
+329 verbose parsed url { protocol: null,
+329 verbose parsed url   slashes: null,
+329 verbose parsed url   auth: null,
+329 verbose parsed url   host: null,
+329 verbose parsed url   port: null,
+329 verbose parsed url   hostname: null,
+329 verbose parsed url   hash: null,
+329 verbose parsed url   search: null,
+329 verbose parsed url   query: null,
+329 verbose parsed url   pathname: 'cssmin@',
+329 verbose parsed url   path: 'cssmin@',
+329 verbose parsed url   href: 'cssmin@' }
+330 verbose cache add name="cssmin" spec="" args=["cssmin",""]
+331 verbose parsed url { protocol: null,
+331 verbose parsed url   slashes: null,
+331 verbose parsed url   auth: null,
+331 verbose parsed url   host: null,
+331 verbose parsed url   port: null,
+331 verbose parsed url   hostname: null,
+331 verbose parsed url   hash: null,
+331 verbose parsed url   search: null,
+331 verbose parsed url   query: null,
+331 verbose parsed url   pathname: null,
+331 verbose parsed url   path: null,
+331 verbose parsed url   href: '' }
+332 verbose addNamed [ 'cssmin', '' ]
+333 verbose addNamed [ null, '*' ]
+334 silly lockFile b754ed39-cssmin cssmin@
+335 verbose lock cssmin@ /Users/nimahajan/.npm/b754ed39-cssmin.lock
+336 silly addNameRange { name: 'mime', range: '*', hasData: false }
+337 verbose url raw jsdom/0.2.2
+338 verbose url resolving [ 'https://registry.npmjs.org/', './jsdom/0.2.2' ]
+339 verbose url resolved https://registry.npmjs.org/jsdom/0.2.2
+340 info trying registry request attempt 1 at 11:08:51
+341 http GET https://registry.npmjs.org/jsdom/0.2.2
+342 silly addNameRange { name: 'optimist', range: '*', hasData: false }
+343 silly addNameRange { name: 'uglify-js', range: '*', hasData: false }
+344 silly addNameRange { name: 'underscore', range: '*', hasData: false }
+345 silly addNameRange { name: 'vows', range: '>=0.5.4', hasData: false }
+346 silly addNameRange { name: 'dandy', range: '*', hasData: false }
+347 silly addNameRange { name: 'diskcache', range: '*', hasData: false }
+348 silly addNameRange { name: 'hascan', range: '*', hasData: false }
+349 silly addNameRange { name: 'express-store', range: '*', hasData: false }
+350 silly addNameRange { name: 'express-logger', range: '*', hasData: false }
+351 silly addNameRange { name: 'express-rewrite', range: '*', hasData: false }
+352 silly addNameRange { name: 'transformjs', range: '*', hasData: false }
+353 silly addNameRange { name: 'async', range: '*', hasData: false }
+354 silly addNameRange { name: 'cssmin', range: '*', hasData: false }
+355 verbose url raw optimist
+356 verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+357 verbose url resolved https://registry.npmjs.org/optimist
+358 info trying registry request attempt 1 at 11:08:51
+359 http GET https://registry.npmjs.org/optimist
+360 verbose url raw uglify-js
+361 verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js' ]
+362 verbose url resolved https://registry.npmjs.org/uglify-js
+363 info trying registry request attempt 1 at 11:08:51
+364 http GET https://registry.npmjs.org/uglify-js
+365 verbose url raw underscore
+366 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+367 verbose url resolved https://registry.npmjs.org/underscore
+368 info trying registry request attempt 1 at 11:08:51
+369 http GET https://registry.npmjs.org/underscore
+370 verbose url raw vows
+371 verbose url resolving [ 'https://registry.npmjs.org/', './vows' ]
+372 verbose url resolved https://registry.npmjs.org/vows
+373 info trying registry request attempt 1 at 11:08:51
+374 http GET https://registry.npmjs.org/vows
+375 verbose url raw dandy
+376 verbose url resolving [ 'https://registry.npmjs.org/', './dandy' ]
+377 verbose url resolved https://registry.npmjs.org/dandy
+378 info trying registry request attempt 1 at 11:08:51
+379 http GET https://registry.npmjs.org/dandy
+380 verbose url raw diskcache
+381 verbose url resolving [ 'https://registry.npmjs.org/', './diskcache' ]
+382 verbose url resolved https://registry.npmjs.org/diskcache
+383 info trying registry request attempt 1 at 11:08:51
+384 http GET https://registry.npmjs.org/diskcache
+385 verbose url raw hascan
+386 verbose url resolving [ 'https://registry.npmjs.org/', './hascan' ]
+387 verbose url resolved https://registry.npmjs.org/hascan
+388 info trying registry request attempt 1 at 11:08:51
+389 http GET https://registry.npmjs.org/hascan
+390 verbose url raw express-store
+391 verbose url resolving [ 'https://registry.npmjs.org/', './express-store' ]
+392 verbose url resolved https://registry.npmjs.org/express-store
+393 info trying registry request attempt 1 at 11:08:51
+394 http GET https://registry.npmjs.org/express-store
+395 verbose url raw express-logger
+396 verbose url resolving [ 'https://registry.npmjs.org/', './express-logger' ]
+397 verbose url resolved https://registry.npmjs.org/express-logger
+398 info trying registry request attempt 1 at 11:08:51
+399 http GET https://registry.npmjs.org/express-logger
+400 verbose url raw express-rewrite
+401 verbose url resolving [ 'https://registry.npmjs.org/', './express-rewrite' ]
+402 verbose url resolved https://registry.npmjs.org/express-rewrite
+403 info trying registry request attempt 1 at 11:08:51
+404 http GET https://registry.npmjs.org/express-rewrite
+405 verbose url raw transformjs
+406 verbose url resolving [ 'https://registry.npmjs.org/', './transformjs' ]
+407 verbose url resolved https://registry.npmjs.org/transformjs
+408 info trying registry request attempt 1 at 11:08:51
+409 http GET https://registry.npmjs.org/transformjs
+410 verbose url raw async
+411 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+412 verbose url resolved https://registry.npmjs.org/async
+413 info trying registry request attempt 1 at 11:08:51
+414 http GET https://registry.npmjs.org/async
+415 verbose url raw cssmin
+416 verbose url resolving [ 'https://registry.npmjs.org/', './cssmin' ]
+417 verbose url resolved https://registry.npmjs.org/cssmin
+418 info trying registry request attempt 1 at 11:08:51
+419 http GET https://registry.npmjs.org/cssmin
+420 verbose url raw mime
+421 verbose url resolving [ 'https://registry.npmjs.org/', './mime' ]
+422 verbose url resolved https://registry.npmjs.org/mime
+423 info trying registry request attempt 1 at 11:08:51
+424 verbose etag "E6XCARW5KGP2FEMF4DRNGR1ZF"
+425 http GET https://registry.npmjs.org/mime
+426 http 200 https://registry.npmjs.org/express/2.5.9
+427 silly registry.get cb [ 200,
+427 silly registry.get   { vary: 'Accept',
+427 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+427 silly registry.get     etag: '"EC94B3AKIEEUFXGIT8BAC1P79"',
+427 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:52 GMT',
+427 silly registry.get     'content-type': 'application/json',
+427 silly registry.get     'content-length': '6374' } ]
+428 silly lockFile a0e4e45e-js-org-express-express-2-5-9-tgz https://registry.npmjs.org/express/-/express-2.5.9.tgz
+429 verbose lock https://registry.npmjs.org/express/-/express-2.5.9.tgz /Users/nimahajan/.npm/a0e4e45e-js-org-express-express-2-5-9-tgz.lock
+430 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-2.5.9.tgz',
+430 verbose addRemoteTarball   '62d111ccaccf425182e1f30e541f84b551a72f2c' ]
+431 info retry fetch attempt 1 at 11:08:52
+432 verbose fetch to= /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132312-0.6521666555199772/tmp.tgz
+433 http GET https://registry.npmjs.org/express/-/express-2.5.9.tgz
+434 http 200 https://registry.npmjs.org/hascan
+435 silly registry.get cb [ 200,
+435 silly registry.get   { vary: 'Accept',
+435 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+435 silly registry.get     etag: '"C3XSARXPXSAM7Z9G2QN3YAVJ8"',
+435 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:52 GMT',
+435 silly registry.get     'content-type': 'application/json',
+435 silly registry.get     'content-length': '13180' } ]
+436 http 200 https://registry.npmjs.org/jsdom/0.2.2
+437 silly registry.get cb [ 200,
+437 silly registry.get   { vary: 'Accept',
+437 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+437 silly registry.get     etag: '"490NBXD0RHZ0F40XWSKZUCQMK"',
+437 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:52 GMT',
+437 silly registry.get     'content-type': 'application/json',
+437 silly registry.get     'content-length': '2300' } ]
+438 silly addNameRange number 2 { name: 'hascan', range: '*', hasData: true }
+439 silly addNameRange versions [ 'hascan',
+439 silly addNameRange   [ '0.0.1',
+439 silly addNameRange     '0.0.2',
+439 silly addNameRange     '0.0.3',
+439 silly addNameRange     '0.0.4',
+439 silly addNameRange     '0.0.5',
+439 silly addNameRange     '0.0.6',
+439 silly addNameRange     '0.0.7',
+439 silly addNameRange     '0.0.8' ] ]
+440 verbose addNamed [ 'hascan', '0.0.8' ]
+441 verbose addNamed [ '0.0.8', '0.0.8' ]
+442 silly lockFile df5cef88-hascan-0-0-8 hascan@0.0.8
+443 verbose lock hascan@0.0.8 /Users/nimahajan/.npm/df5cef88-hascan-0-0-8.lock
+444 silly lockFile cc3e66e0--npmjs-org-jsdom-jsdom-0-2-2-tgz https://registry.npmjs.org/jsdom/-/jsdom-0.2.2.tgz
+445 verbose lock https://registry.npmjs.org/jsdom/-/jsdom-0.2.2.tgz /Users/nimahajan/.npm/cc3e66e0--npmjs-org-jsdom-jsdom-0-2-2-tgz.lock
+446 verbose addRemoteTarball [ 'https://registry.npmjs.org/jsdom/-/jsdom-0.2.2.tgz',
+446 verbose addRemoteTarball   '0bcfbbf6c2547e07a714d67252a3cd3c6ff31a1e' ]
+447 silly lockFile 7425821f-pmjs-org-hascan-hascan-0-0-8-tgz https://registry.npmjs.org/hascan/-/hascan-0.0.8.tgz
+448 verbose lock https://registry.npmjs.org/hascan/-/hascan-0.0.8.tgz /Users/nimahajan/.npm/7425821f-pmjs-org-hascan-hascan-0-0-8-tgz.lock
+449 info retry fetch attempt 1 at 11:08:52
+450 verbose fetch to= /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132333-0.6781757697463036/tmp.tgz
+451 verbose addRemoteTarball [ 'https://registry.npmjs.org/hascan/-/hascan-0.0.8.tgz',
+451 verbose addRemoteTarball   '4129add11ce89539749a468d309e9ff8cb37ea9a' ]
+452 http GET https://registry.npmjs.org/jsdom/-/jsdom-0.2.2.tgz
+453 info retry fetch attempt 1 at 11:08:52
+454 verbose fetch to= /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132334-0.5200186467263848/tmp.tgz
+455 http GET https://registry.npmjs.org/hascan/-/hascan-0.0.8.tgz
+456 http 200 https://registry.npmjs.org/cssmin
+457 silly registry.get cb [ 200,
+457 silly registry.get   { vary: 'Accept',
+457 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+457 silly registry.get     etag: '"ANW7MMTKWL3GZB5AX8X3GKNBP"',
+457 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:52 GMT',
+457 silly registry.get     'content-type': 'application/json',
+457 silly registry.get     'content-length': '9297' } ]
+458 http 200 https://registry.npmjs.org/express-logger
+459 silly registry.get cb [ 200,
+459 silly registry.get   { vary: 'Accept',
+459 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+459 silly registry.get     etag: '"C8JQJXF8C6G3KRSJ28MG5FEUR"',
+459 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:52 GMT',
+459 silly registry.get     'content-type': 'application/json',
+459 silly registry.get     'content-length': '2444' } ]
+460 http 200 https://registry.npmjs.org/transformjs
+461 silly registry.get cb [ 200,
+461 silly registry.get   { vary: 'Accept',
+461 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+461 silly registry.get     etag: '"9VS40WVKWZUI4KRQO2Q84S54X"',
+461 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:52 GMT',
+461 silly registry.get     'content-type': 'application/json',
+461 silly registry.get     'content-length': '5858' } ]
+462 silly addNameRange number 2 { name: 'cssmin', range: '*', hasData: true }
+463 silly addNameRange versions [ 'cssmin',
+463 silly addNameRange   [ '0.1.0', '0.2.0', '0.3.0', '0.3.1', '0.3.2', '0.4.0', '0.4.1' ] ]
+464 verbose addNamed [ 'cssmin', '0.4.1' ]
+465 verbose addNamed [ '0.4.1', '0.4.1' ]
+466 silly lockFile f106807d-cssmin-0-4-1 cssmin@0.4.1
+467 verbose lock cssmin@0.4.1 /Users/nimahajan/.npm/f106807d-cssmin-0-4-1.lock
+468 silly addNameRange number 2 { name: 'transformjs', range: '*', hasData: true }
+469 silly addNameRange versions [ 'transformjs', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+470 verbose addNamed [ 'transformjs', '0.0.3' ]
+471 verbose addNamed [ '0.0.3', '0.0.3' ]
+472 silly lockFile 1d4fe22c-transformjs-0-0-3 transformjs@0.0.3
+473 verbose lock transformjs@0.0.3 /Users/nimahajan/.npm/1d4fe22c-transformjs-0-0-3.lock
+474 silly addNameRange number 2 { name: 'express-logger', range: '*', hasData: true }
+475 silly addNameRange versions [ 'express-logger', [ '0.0.1', '0.0.2' ] ]
+476 verbose addNamed [ 'express-logger', '0.0.2' ]
+477 verbose addNamed [ '0.0.2', '0.0.2' ]
+478 silly lockFile af035821-express-logger-0-0-2 express-logger@0.0.2
+479 verbose lock express-logger@0.0.2 /Users/nimahajan/.npm/af035821-express-logger-0-0-2.lock
+480 silly lockFile 3bc05c7a-pmjs-org-cssmin-cssmin-0-4-1-tgz https://registry.npmjs.org/cssmin/-/cssmin-0.4.1.tgz
+481 verbose lock https://registry.npmjs.org/cssmin/-/cssmin-0.4.1.tgz /Users/nimahajan/.npm/3bc05c7a-pmjs-org-cssmin-cssmin-0-4-1-tgz.lock
+482 silly lockFile 3c801834-ransformjs-transformjs-0-0-3-tgz https://registry.npmjs.org/transformjs/-/transformjs-0.0.3.tgz
+483 verbose lock https://registry.npmjs.org/transformjs/-/transformjs-0.0.3.tgz /Users/nimahajan/.npm/3c801834-ransformjs-transformjs-0-0-3-tgz.lock
+484 silly lockFile a610e4c8--logger-express-logger-0-0-2-tgz https://registry.npmjs.org/express-logger/-/express-logger-0.0.2.tgz
+485 verbose lock https://registry.npmjs.org/express-logger/-/express-logger-0.0.2.tgz /Users/nimahajan/.npm/a610e4c8--logger-express-logger-0-0-2-tgz.lock
+486 verbose addRemoteTarball [ 'https://registry.npmjs.org/cssmin/-/cssmin-0.4.1.tgz',
+486 verbose addRemoteTarball   '48ed8c045f44f61efb11eacd6193082b9793e9cb' ]
+487 verbose addRemoteTarball [ 'https://registry.npmjs.org/transformjs/-/transformjs-0.0.3.tgz',
+487 verbose addRemoteTarball   'a3a2990f6a2f7c995c155297fabf24afd3aad942' ]
+488 info retry fetch attempt 1 at 11:08:52
+489 verbose fetch to= /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/tmp.tgz
+490 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-logger/-/express-logger-0.0.2.tgz',
+490 verbose addRemoteTarball   '5a42a28d238a1d43b6d7225f34c65f65f46898e6' ]
+491 info retry fetch attempt 1 at 11:08:52
+492 verbose fetch to= /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132363-0.11923849582672119/tmp.tgz
+493 info retry fetch attempt 1 at 11:08:52
+494 verbose fetch to= /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/tmp.tgz
+495 http GET https://registry.npmjs.org/cssmin/-/cssmin-0.4.1.tgz
+496 http GET https://registry.npmjs.org/transformjs/-/transformjs-0.0.3.tgz
+497 http GET https://registry.npmjs.org/express-logger/-/express-logger-0.0.2.tgz
+498 http 200 https://registry.npmjs.org/dandy
+499 silly registry.get cb [ 200,
+499 silly registry.get   { vary: 'Accept',
+499 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+499 silly registry.get     etag: '"5TEEABMT96DFTSBPYQRNL703F"',
+499 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:52 GMT',
+499 silly registry.get     'content-type': 'application/json',
+499 silly registry.get     'content-length': '4752' } ]
+500 http 200 https://registry.npmjs.org/express-rewrite
+501 silly registry.get cb [ 200,
+501 silly registry.get   { vary: 'Accept',
+501 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+501 silly registry.get     etag: '"1EDR1M27JX1V0HN7ECCPT6WGI"',
+501 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:52 GMT',
+501 silly registry.get     'content-type': 'application/json',
+501 silly registry.get     'content-length': '3311' } ]
+502 http 200 https://registry.npmjs.org/express-store
+503 silly registry.get cb [ 200,
+503 silly registry.get   { vary: 'Accept',
+503 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+503 silly registry.get     etag: '"EGI74R4S1Z2FV3K8YPHD8X8CS"',
+503 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:52 GMT',
+503 silly registry.get     'content-type': 'application/json',
+503 silly registry.get     'content-length': '1452' } ]
+504 http 304 https://registry.npmjs.org/mime
+505 silly registry.get cb [ 304,
+505 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+505 silly registry.get     etag: '"E6XCARW5KGP2FEMF4DRNGR1ZF"',
+505 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:52 GMT',
+505 silly registry.get     'content-length': '0' } ]
+506 verbose etag mime from cache
+507 silly addNameRange number 2 { name: 'dandy', range: '*', hasData: true }
+508 silly addNameRange versions [ 'dandy', [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5' ] ]
+509 verbose addNamed [ 'dandy', '0.0.5' ]
+510 verbose addNamed [ '0.0.5', '0.0.5' ]
+511 silly lockFile 165e8ae0-dandy-0-0-5 dandy@0.0.5
+512 verbose lock dandy@0.0.5 /Users/nimahajan/.npm/165e8ae0-dandy-0-0-5.lock
+513 silly addNameRange number 2 { name: 'express-rewrite', range: '*', hasData: true }
+514 silly addNameRange versions [ 'express-rewrite', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+515 verbose addNamed [ 'express-rewrite', '0.0.3' ]
+516 verbose addNamed [ '0.0.3', '0.0.3' ]
+517 silly lockFile 54aec990-express-rewrite-0-0-3 express-rewrite@0.0.3
+518 verbose lock express-rewrite@0.0.3 /Users/nimahajan/.npm/54aec990-express-rewrite-0-0-3.lock
+519 silly addNameRange number 2 { name: 'mime', range: '*', hasData: true }
+520 silly addNameRange versions [ 'mime',
+520 silly addNameRange   [ '1.0.0',
+520 silly addNameRange     '1.1.0',
+520 silly addNameRange     '1.2.1',
+520 silly addNameRange     '1.2.2',
+520 silly addNameRange     '1.2.3',
+520 silly addNameRange     '1.2.4',
+520 silly addNameRange     '1.2.5',
+520 silly addNameRange     '1.2.6',
+520 silly addNameRange     '1.2.7',
+520 silly addNameRange     '1.2.8',
+520 silly addNameRange     '1.2.9',
+520 silly addNameRange     '1.2.10',
+520 silly addNameRange     '1.2.11' ] ]
+521 verbose addNamed [ 'mime', '1.2.11' ]
+522 verbose addNamed [ '1.2.11', '1.2.11' ]
+523 silly lockFile c4b0741f-mime-1-2-11 mime@1.2.11
+524 verbose lock mime@1.2.11 /Users/nimahajan/.npm/c4b0741f-mime-1-2-11.lock
+525 silly addNameRange number 2 { name: 'express-store', range: '*', hasData: true }
+526 silly addNameRange versions [ 'express-store', [ '0.0.4' ] ]
+527 verbose addNamed [ 'express-store', '0.0.4' ]
+528 verbose addNamed [ '0.0.4', '0.0.4' ]
+529 silly lockFile 7d3a3b93-express-store-0-0-4 express-store@0.0.4
+530 verbose lock express-store@0.0.4 /Users/nimahajan/.npm/7d3a3b93-express-store-0-0-4.lock
+531 silly lockFile b4ae974e--npmjs-org-dandy-dandy-0-0-5-tgz https://registry.npmjs.org/dandy/-/dandy-0.0.5.tgz
+532 verbose lock https://registry.npmjs.org/dandy/-/dandy-0.0.5.tgz /Users/nimahajan/.npm/b4ae974e--npmjs-org-dandy-dandy-0-0-5-tgz.lock
+533 silly lockFile 6d6c3d7c-ewrite-express-rewrite-0-0-3-tgz https://registry.npmjs.org/express-rewrite/-/express-rewrite-0.0.3.tgz
+534 verbose lock https://registry.npmjs.org/express-rewrite/-/express-rewrite-0.0.3.tgz /Users/nimahajan/.npm/6d6c3d7c-ewrite-express-rewrite-0-0-3-tgz.lock
+535 verbose addRemoteTarball [ 'https://registry.npmjs.org/dandy/-/dandy-0.0.5.tgz',
+535 verbose addRemoteTarball   '4a229f73330723ab0598a9bd569d8110c19241b7' ]
+536 silly lockFile 31b59224-ss-store-express-store-0-0-4-tgz https://registry.npmjs.org/express-store/-/express-store-0.0.4.tgz
+537 verbose lock https://registry.npmjs.org/express-store/-/express-store-0.0.4.tgz /Users/nimahajan/.npm/31b59224-ss-store-express-store-0-0-4-tgz.lock
+538 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-rewrite/-/express-rewrite-0.0.3.tgz',
+538 verbose addRemoteTarball   '1ff4b7b54ca3f77255d34c5dbf4044124b729a85' ]
+539 info retry fetch attempt 1 at 11:08:52
+540 verbose fetch to= /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/tmp.tgz
+541 info retry fetch attempt 1 at 11:08:52
+542 verbose fetch to= /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/tmp.tgz
+543 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-store/-/express-store-0.0.4.tgz',
+543 verbose addRemoteTarball   '02f1a440c107fc667178e665cb657d59a4440524' ]
+544 http GET https://registry.npmjs.org/dandy/-/dandy-0.0.5.tgz
+545 http GET https://registry.npmjs.org/express-rewrite/-/express-rewrite-0.0.3.tgz
+546 info retry fetch attempt 1 at 11:08:52
+547 verbose fetch to= /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/tmp.tgz
+548 http GET https://registry.npmjs.org/express-store/-/express-store-0.0.4.tgz
+549 silly lockFile c4b0741f-mime-1-2-11 mime@1.2.11
+550 silly lockFile c4b0741f-mime-1-2-11 mime@1.2.11
+551 silly lockFile 997db655-mime mime@
+552 silly lockFile 997db655-mime mime@
+553 http 200 https://registry.npmjs.org/diskcache
+554 silly registry.get cb [ 200,
+554 silly registry.get   { vary: 'Accept',
+554 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+554 silly registry.get     etag: '"AW37R25AKLVDXDXCJJTB6ER1V"',
+554 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:52 GMT',
+554 silly registry.get     'content-type': 'application/json',
+554 silly registry.get     'content-length': '18385' } ]
+555 silly addNameRange number 2 { name: 'diskcache', range: '*', hasData: true }
+556 silly addNameRange versions [ 'diskcache',
+556 silly addNameRange   [ '0.0.1',
+556 silly addNameRange     '0.0.2',
+556 silly addNameRange     '0.0.3',
+556 silly addNameRange     '0.0.4',
+556 silly addNameRange     '0.0.5',
+556 silly addNameRange     '0.0.6',
+556 silly addNameRange     '0.0.7',
+556 silly addNameRange     '0.0.8',
+556 silly addNameRange     '0.0.9',
+556 silly addNameRange     '0.0.10',
+556 silly addNameRange     '0.0.11',
+556 silly addNameRange     '0.0.12',
+556 silly addNameRange     '0.0.13',
+556 silly addNameRange     '0.0.14',
+556 silly addNameRange     '0.0.15',
+556 silly addNameRange     '0.0.16' ] ]
+557 verbose addNamed [ 'diskcache', '0.0.16' ]
+558 verbose addNamed [ '0.0.16', '0.0.16' ]
+559 silly lockFile ecfe1ab8-diskcache-0-0-16 diskcache@0.0.16
+560 verbose lock diskcache@0.0.16 /Users/nimahajan/.npm/ecfe1ab8-diskcache-0-0-16.lock
+561 silly lockFile 30744e56-g-diskcache-diskcache-0-0-16-tgz https://registry.npmjs.org/diskcache/-/diskcache-0.0.16.tgz
+562 verbose lock https://registry.npmjs.org/diskcache/-/diskcache-0.0.16.tgz /Users/nimahajan/.npm/30744e56-g-diskcache-diskcache-0-0-16-tgz.lock
+563 verbose addRemoteTarball [ 'https://registry.npmjs.org/diskcache/-/diskcache-0.0.16.tgz',
+563 verbose addRemoteTarball   'e22e73025ca9b66c0eb84cdb130555a9c5cb11f3' ]
+564 info retry fetch attempt 1 at 11:08:52
+565 verbose fetch to= /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132429-0.4421765140723437/tmp.tgz
+566 http GET https://registry.npmjs.org/diskcache/-/diskcache-0.0.16.tgz
+567 http 200 https://registry.npmjs.org/underscore
+568 silly registry.get cb [ 200,
+568 silly registry.get   { vary: 'Accept',
+568 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+568 silly registry.get     etag: '"5B5TFBCUD4EE1HARVYGBG8GFE"',
+568 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:52 GMT',
+568 silly registry.get     'content-type': 'application/json',
+568 silly registry.get     'content-length': '43793' } ]
+569 http 200 https://registry.npmjs.org/vows
+570 silly registry.get cb [ 200,
+570 silly registry.get   { vary: 'Accept',
+570 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+570 silly registry.get     etag: '"75W3UTHS9RDLBQTI09ZRVUBN9"',
+570 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:52 GMT',
+570 silly registry.get     'content-type': 'application/json',
+570 silly registry.get     'content-length': '37846' } ]
+571 silly addNameRange number 2 { name: 'underscore', range: '*', hasData: true }
+572 silly addNameRange versions [ 'underscore',
+572 silly addNameRange   [ '1.0.3',
+572 silly addNameRange     '1.0.4',
+572 silly addNameRange     '1.1.0',
+572 silly addNameRange     '1.1.1',
+572 silly addNameRange     '1.1.2',
+572 silly addNameRange     '1.1.3',
+572 silly addNameRange     '1.1.4',
+572 silly addNameRange     '1.1.5',
+572 silly addNameRange     '1.1.6',
+572 silly addNameRange     '1.1.7',
+572 silly addNameRange     '1.2.0',
+572 silly addNameRange     '1.2.1',
+572 silly addNameRange     '1.2.2',
+572 silly addNameRange     '1.2.3',
+572 silly addNameRange     '1.2.4',
+572 silly addNameRange     '1.3.0',
+572 silly addNameRange     '1.3.1',
+572 silly addNameRange     '1.3.2',
+572 silly addNameRange     '1.3.3',
+572 silly addNameRange     '1.4.0',
+572 silly addNameRange     '1.4.1',
+572 silly addNameRange     '1.4.2',
+572 silly addNameRange     '1.4.3',
+572 silly addNameRange     '1.4.4',
+572 silly addNameRange     '1.5.0',
+572 silly addNameRange     '1.5.1',
+572 silly addNameRange     '1.5.2' ] ]
+573 verbose addNamed [ 'underscore', '1.5.2' ]
+574 verbose addNamed [ '1.5.2', '1.5.2' ]
+575 silly lockFile 669f6cbc-underscore-1-5-2 underscore@1.5.2
+576 verbose lock underscore@1.5.2 /Users/nimahajan/.npm/669f6cbc-underscore-1-5-2.lock
+577 silly lockFile 6b9ebfa0--underscore-underscore-1-5-2-tgz https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz
+578 verbose lock https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz /Users/nimahajan/.npm/6b9ebfa0--underscore-underscore-1-5-2-tgz.lock
+579 silly addNameRange number 2 { name: 'vows', range: '>=0.5.4', hasData: true }
+580 silly addNameRange versions [ 'vows',
+580 silly addNameRange   [ '0.2.5',
+580 silly addNameRange     '0.3.0',
+580 silly addNameRange     '0.3.1',
+580 silly addNameRange     '0.3.2',
+580 silly addNameRange     '0.3.3',
+580 silly addNameRange     '0.3.4',
+580 silly addNameRange     '0.3.5',
+580 silly addNameRange     '0.4.0',
+580 silly addNameRange     '0.4.1',
+580 silly addNameRange     '0.4.2',
+580 silly addNameRange     '0.4.3',
+580 silly addNameRange     '0.4.4',
+580 silly addNameRange     '0.4.5',
+580 silly addNameRange     '0.4.6',
+580 silly addNameRange     '0.5.0',
+580 silly addNameRange     '0.5.5',
+580 silly addNameRange     '0.5.6',
+580 silly addNameRange     '0.5.8',
+580 silly addNameRange     '0.5.9',
+580 silly addNameRange     '0.5.10',
+580 silly addNameRange     '0.5.11',
+580 silly addNameRange     '0.5.12',
+580 silly addNameRange     '0.5.13',
+580 silly addNameRange     '0.6.0',
+580 silly addNameRange     '0.6.1',
+580 silly addNameRange     '0.6.2',
+580 silly addNameRange     '0.6.3',
+580 silly addNameRange     '0.6.4',
+580 silly addNameRange     '0.7.0' ] ]
+581 verbose addNamed [ 'vows', '0.7.0' ]
+582 verbose addNamed [ '0.7.0', '0.7.0' ]
+583 silly lockFile 5c9f8c82-vows-0-7-0 vows@0.7.0
+584 verbose lock vows@0.7.0 /Users/nimahajan/.npm/5c9f8c82-vows-0-7-0.lock
+585 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz',
+585 verbose addRemoteTarball   '1335c5e4f5e6d33bbb4b006ba8c86a00f556de08' ]
+586 info retry fetch attempt 1 at 11:08:52
+587 verbose fetch to= /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132490-0.47371970186941326/tmp.tgz
+588 silly lockFile 937cb33b-ry-npmjs-org-vows-vows-0-7-0-tgz https://registry.npmjs.org/vows/-/vows-0.7.0.tgz
+589 verbose lock https://registry.npmjs.org/vows/-/vows-0.7.0.tgz /Users/nimahajan/.npm/937cb33b-ry-npmjs-org-vows-vows-0-7-0-tgz.lock
+590 http GET https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz
+591 verbose addRemoteTarball [ 'https://registry.npmjs.org/vows/-/vows-0.7.0.tgz',
+591 verbose addRemoteTarball   'dd0065f110ba0c0a6d63e844851c3208176d5867' ]
+592 info retry fetch attempt 1 at 11:08:52
+593 verbose fetch to= /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132493-0.890125417849049/tmp.tgz
+594 http GET https://registry.npmjs.org/vows/-/vows-0.7.0.tgz
+595 http 200 https://registry.npmjs.org/optimist
+596 silly registry.get cb [ 200,
+596 silly registry.get   { vary: 'Accept',
+596 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+596 silly registry.get     etag: '"8E9YW7J5MSSKSRD2HNFI0ERNS"',
+596 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:52 GMT',
+596 silly registry.get     'content-type': 'application/json',
+596 silly registry.get     'content-length': '123859' } ]
+597 silly addNameRange number 2 { name: 'optimist', range: '*', hasData: true }
+598 silly addNameRange versions [ 'optimist',
+598 silly addNameRange   [ '0.0.1',
+598 silly addNameRange     '0.0.2',
+598 silly addNameRange     '0.0.4',
+598 silly addNameRange     '0.0.5',
+598 silly addNameRange     '0.0.6',
+598 silly addNameRange     '0.0.7',
+598 silly addNameRange     '0.1.0',
+598 silly addNameRange     '0.1.1',
+598 silly addNameRange     '0.1.2',
+598 silly addNameRange     '0.1.3',
+598 silly addNameRange     '0.1.4',
+598 silly addNameRange     '0.1.5',
+598 silly addNameRange     '0.1.6',
+598 silly addNameRange     '0.1.7',
+598 silly addNameRange     '0.1.8',
+598 silly addNameRange     '0.1.9',
+598 silly addNameRange     '0.0.3',
+598 silly addNameRange     '0.2.0',
+598 silly addNameRange     '0.2.1',
+598 silly addNameRange     '0.2.2',
+598 silly addNameRange     '0.2.3',
+598 silly addNameRange     '0.2.4',
+598 silly addNameRange     '0.2.5',
+598 silly addNameRange     '0.2.6',
+598 silly addNameRange     '0.2.7',
+598 silly addNameRange     '0.2.8',
+598 silly addNameRange     '0.3.0',
+598 silly addNameRange     '0.3.1',
+598 silly addNameRange     '0.3.3',
+598 silly addNameRange     '0.3.4',
+598 silly addNameRange     '0.3.5',
+598 silly addNameRange     '0.3.6',
+598 silly addNameRange     '0.3.7',
+598 silly addNameRange     '0.4.0',
+598 silly addNameRange     '0.5.0',
+598 silly addNameRange     '0.5.1',
+598 silly addNameRange     '0.5.2',
+598 silly addNameRange     '0.6.0' ] ]
+599 verbose addNamed [ 'optimist', '0.6.0' ]
+600 verbose addNamed [ '0.6.0', '0.6.0' ]
+601 silly lockFile 6403b4d6-optimist-0-6-0 optimist@0.6.0
+602 verbose lock optimist@0.6.0 /Users/nimahajan/.npm/6403b4d6-optimist-0-6-0.lock
+603 silly lockFile 8def609d--org-optimist-optimist-0-6-0-tgz https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+604 verbose lock https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz /Users/nimahajan/.npm/8def609d--org-optimist-optimist-0-6-0-tgz.lock
+605 verbose addRemoteTarball [ 'https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz',
+605 verbose addRemoteTarball   '69424826f3405f79f142e6fc3d9ae58d4dbb9200' ]
+606 info retry fetch attempt 1 at 11:08:52
+607 verbose fetch to= /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132701-0.7350969626568258/tmp.tgz
+608 http GET https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+609 http 200 https://registry.npmjs.org/cssmin/-/cssmin-0.4.1.tgz
+610 http 200 https://registry.npmjs.org/express-logger/-/express-logger-0.0.2.tgz
+611 http 200 https://registry.npmjs.org/express/-/express-2.5.9.tgz
+612 verbose tar unpack /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/tmp.tgz
+613 silly lockFile 238ce91a-2364-0-28556735860183835-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/package
+614 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/package /Users/nimahajan/.npm/238ce91a-2364-0-28556735860183835-package.lock
+615 silly lockFile b3b49661-2364-0-28556735860183835-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/tmp.tgz
+616 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/tmp.tgz /Users/nimahajan/.npm/b3b49661-2364-0-28556735860183835-tmp-tgz.lock
+617 verbose tar unpack /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/tmp.tgz
+618 silly lockFile 19b31014-32362-0-6575100070331246-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/package
+619 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/package /Users/nimahajan/.npm/19b31014-32362-0-6575100070331246-package.lock
+620 silly lockFile 41e14229-32362-0-6575100070331246-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/tmp.tgz
+621 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/tmp.tgz /Users/nimahajan/.npm/41e14229-32362-0-6575100070331246-tmp-tgz.lock
+622 silly gunzTarPerm modes [ '755', '644' ]
+623 silly gunzTarPerm modes [ '755', '644' ]
+624 http 200 https://registry.npmjs.org/dandy/-/dandy-0.0.5.tgz
+625 silly gunzTarPerm extractEntry .gitignore
+626 silly gunzTarPerm extractEntry package.json
+627 silly gunzTarPerm extractEntry LICENSE
+628 silly gunzTarPerm extractEntry package.json
+629 silly gunzTarPerm extractEntry README.md
+630 silly gunzTarPerm extractEntry cssmin.js
+631 verbose tar unpack /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/tmp.tgz
+632 silly lockFile 8d1cd629-132382-0-483725295169279-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/package
+633 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/package /Users/nimahajan/.npm/8d1cd629-132382-0-483725295169279-package.lock
+634 silly lockFile 8db807b2-132382-0-483725295169279-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/tmp.tgz
+635 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/tmp.tgz /Users/nimahajan/.npm/8db807b2-132382-0-483725295169279-tmp-tgz.lock
+636 silly gunzTarPerm extractEntry logger.js
+637 silly gunzTarPerm extractEntry README.md
+638 silly gunzTarPerm modes [ '755', '644' ]
+639 silly gunzTarPerm extractEntry bin/cssmin
+640 silly gunzTarPerm extractEntry tests/launcher.js
+641 silly gunzTarPerm extractEntry .gitignore
+642 http 200 https://registry.npmjs.org/express-store/-/express-store-0.0.4.tgz
+643 silly gunzTarPerm extractEntry dandy.js
+644 silly gunzTarPerm extractEntry errors.js
+645 http 200 https://registry.npmjs.org/express-rewrite/-/express-rewrite-0.0.3.tgz
+646 silly gunzTarPerm extractEntry tests/data/bug_5.css
+647 silly gunzTarPerm extractEntry tests/data/bug_5.min.css
+648 http 200 https://registry.npmjs.org/transformjs/-/transformjs-0.0.3.tgz
+649 http 200 https://registry.npmjs.org/hascan/-/hascan-0.0.8.tgz
+650 http 200 https://registry.npmjs.org/jsdom/-/jsdom-0.2.2.tgz
+651 verbose tar unpack /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/tmp.tgz
+652 silly lockFile 226aa880-32383-0-8784885830245912-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/package
+653 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/package /Users/nimahajan/.npm/226aa880-32383-0-8784885830245912-package.lock
+654 silly lockFile 4bd6f908-32383-0-8784885830245912-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/tmp.tgz
+655 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/tmp.tgz /Users/nimahajan/.npm/4bd6f908-32383-0-8784885830245912-tmp-tgz.lock
+656 verbose tar unpack /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/tmp.tgz
+657 silly lockFile 9f1a52bc-2382-0-33666270785033703-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/package
+658 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/package /Users/nimahajan/.npm/9f1a52bc-2382-0-33666270785033703-package.lock
+659 silly lockFile fafdca36-2382-0-33666270785033703-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/tmp.tgz
+660 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/tmp.tgz /Users/nimahajan/.npm/fafdca36-2382-0-33666270785033703-tmp-tgz.lock
+661 silly gunzTarPerm extractEntry LICENSE
+662 silly gunzTarPerm extractEntry package.json
+663 silly gunzTarPerm modes [ '755', '644' ]
+664 silly gunzTarPerm modes [ '755', '644' ]
+665 verbose tar unpack /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132363-0.11923849582672119/tmp.tgz
+666 silly lockFile bb41656b-2363-0-11923849582672119-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132363-0.11923849582672119/package
+667 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132363-0.11923849582672119/package /Users/nimahajan/.npm/bb41656b-2363-0-11923849582672119-package.lock
+668 silly lockFile a2ccdc21-2363-0-11923849582672119-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132363-0.11923849582672119/tmp.tgz
+669 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132363-0.11923849582672119/tmp.tgz /Users/nimahajan/.npm/a2ccdc21-2363-0-11923849582672119-tmp-tgz.lock
+670 silly gunzTarPerm extractEntry .gitignore
+671 silly gunzTarPerm extractEntry .gitignore
+672 silly gunzTarPerm extractEntry README.md
+673 silly gunzTarPerm modes [ '755', '644' ]
+674 silly gunzTarPerm extractEntry cache.js
+675 silly gunzTarPerm extractEntry LICENSE
+676 silly gunzTarPerm extractEntry LICENSE
+677 silly gunzTarPerm extractEntry package.json
+678 silly gunzTarPerm extractEntry package.json
+679 silly gunzTarPerm extractEntry .npmignore
+680 silly gunzTarPerm extractEntry README.md
+681 silly gunzTarPerm extractEntry package.json
+682 silly gunzTarPerm extractEntry README.md
+683 silly gunzTarPerm extractEntry README.md
+684 silly gunzTarPerm extractEntry rewrite.js
+685 silly lockFile 238ce91a-2364-0-28556735860183835-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/package
+686 silly lockFile 238ce91a-2364-0-28556735860183835-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/package
+687 silly lockFile b3b49661-2364-0-28556735860183835-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/tmp.tgz
+688 silly lockFile b3b49661-2364-0-28556735860183835-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/tmp.tgz
+689 silly gunzTarPerm extractEntry LICENSE
+690 silly gunzTarPerm extractEntry lib/transformjs.js
+691 verbose tar pack [ '/Users/nimahajan/.npm/express-logger/0.0.2/package.tgz',
+691 verbose tar pack   '/var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/package' ]
+692 verbose tarball /Users/nimahajan/.npm/express-logger/0.0.2/package.tgz
+693 verbose folder /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/package
+694 silly lockFile 238ce91a-2364-0-28556735860183835-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/package
+695 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/package /Users/nimahajan/.npm/238ce91a-2364-0-28556735860183835-package.lock
+696 silly lockFile 31af5ea0-express-logger-0-0-2-package-tgz tar:///Users/nimahajan/.npm/express-logger/0.0.2/package.tgz
+697 verbose lock tar:///Users/nimahajan/.npm/express-logger/0.0.2/package.tgz /Users/nimahajan/.npm/31af5ea0-express-logger-0-0-2-package-tgz.lock
+698 http 200 https://registry.npmjs.org/diskcache/-/diskcache-0.0.16.tgz
+699 silly gunzTarPerm extractEntry Makefile
+700 silly gunzTarPerm extractEntry test/transformjs-test.js
+701 verbose tar unpack /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132429-0.4421765140723437/tmp.tgz
+702 silly lockFile 4f387084-32429-0-4421765140723437-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132429-0.4421765140723437/package
+703 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132429-0.4421765140723437/package /Users/nimahajan/.npm/4f387084-32429-0-4421765140723437-package.lock
+704 silly lockFile 9479940a-32429-0-4421765140723437-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132429-0.4421765140723437/tmp.tgz
+705 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132429-0.4421765140723437/tmp.tgz /Users/nimahajan/.npm/9479940a-32429-0-4421765140723437-tmp-tgz.lock
+706 silly gunzTarPerm modes [ '755', '644' ]
+707 silly lockFile 8d1cd629-132382-0-483725295169279-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/package
+708 silly lockFile 8d1cd629-132382-0-483725295169279-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/package
+709 silly lockFile 8db807b2-132382-0-483725295169279-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/tmp.tgz
+710 silly lockFile 8db807b2-132382-0-483725295169279-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/tmp.tgz
+711 silly gunzTarPerm extractEntry package.json
+712 verbose tar pack [ '/Users/nimahajan/.npm/dandy/0.0.5/package.tgz',
+712 verbose tar pack   '/var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/package' ]
+713 verbose tarball /Users/nimahajan/.npm/dandy/0.0.5/package.tgz
+714 verbose folder /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/package
+715 silly lockFile 8d1cd629-132382-0-483725295169279-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/package
+716 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/package /Users/nimahajan/.npm/8d1cd629-132382-0-483725295169279-package.lock
+717 silly lockFile 4df6c700-ajan-npm-dandy-0-0-5-package-tgz tar:///Users/nimahajan/.npm/dandy/0.0.5/package.tgz
+718 verbose lock tar:///Users/nimahajan/.npm/dandy/0.0.5/package.tgz /Users/nimahajan/.npm/4df6c700-ajan-npm-dandy-0-0-5-package-tgz.lock
+719 silly gunzTarPerm extractEntry .npmignore
+720 silly gunzTarPerm extractEntry README.md
+721 http 200 https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz
+722 http 200 https://registry.npmjs.org/vows/-/vows-0.7.0.tgz
+723 silly lockFile 19b31014-32362-0-6575100070331246-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/package
+724 silly lockFile 19b31014-32362-0-6575100070331246-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/package
+725 silly lockFile 41e14229-32362-0-6575100070331246-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/tmp.tgz
+726 silly lockFile 41e14229-32362-0-6575100070331246-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/tmp.tgz
+727 silly lockFile 9f1a52bc-2382-0-33666270785033703-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/package
+728 silly lockFile 9f1a52bc-2382-0-33666270785033703-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/package
+729 verbose tar pack [ '/Users/nimahajan/.npm/cssmin/0.4.1/package.tgz',
+729 verbose tar pack   '/var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/package' ]
+730 verbose tarball /Users/nimahajan/.npm/cssmin/0.4.1/package.tgz
+731 verbose folder /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/package
+732 silly lockFile 19b31014-32362-0-6575100070331246-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/package
+733 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/package /Users/nimahajan/.npm/19b31014-32362-0-6575100070331246-package.lock
+734 silly lockFile e2b4f192-jan-npm-cssmin-0-4-1-package-tgz tar:///Users/nimahajan/.npm/cssmin/0.4.1/package.tgz
+735 verbose lock tar:///Users/nimahajan/.npm/cssmin/0.4.1/package.tgz /Users/nimahajan/.npm/e2b4f192-jan-npm-cssmin-0-4-1-package-tgz.lock
+736 silly lockFile fafdca36-2382-0-33666270785033703-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/tmp.tgz
+737 silly lockFile fafdca36-2382-0-33666270785033703-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/tmp.tgz
+738 silly gunzTarPerm extractEntry LICENSE
+739 silly gunzTarPerm extractEntry diskcache.js
+740 verbose tar pack [ '/Users/nimahajan/.npm/express-rewrite/0.0.3/package.tgz',
+740 verbose tar pack   '/var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/package' ]
+741 verbose tarball /Users/nimahajan/.npm/express-rewrite/0.0.3/package.tgz
+742 verbose folder /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/package
+743 silly lockFile 9f1a52bc-2382-0-33666270785033703-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/package
+744 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/package /Users/nimahajan/.npm/9f1a52bc-2382-0-33666270785033703-package.lock
+745 silly lockFile 9b3ea763-xpress-rewrite-0-0-3-package-tgz tar:///Users/nimahajan/.npm/express-rewrite/0.0.3/package.tgz
+746 verbose lock tar:///Users/nimahajan/.npm/express-rewrite/0.0.3/package.tgz /Users/nimahajan/.npm/9b3ea763-xpress-rewrite-0-0-3-package-tgz.lock
+747 silly lockFile 226aa880-32383-0-8784885830245912-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/package
+748 silly lockFile 226aa880-32383-0-8784885830245912-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/package
+749 silly lockFile 4bd6f908-32383-0-8784885830245912-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/tmp.tgz
+750 silly lockFile 4bd6f908-32383-0-8784885830245912-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/tmp.tgz
+751 silly lockFile 238ce91a-2364-0-28556735860183835-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/package
+752 silly lockFile 238ce91a-2364-0-28556735860183835-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132364-0.28556735860183835/package
+753 silly lockFile 31af5ea0-express-logger-0-0-2-package-tgz tar:///Users/nimahajan/.npm/express-logger/0.0.2/package.tgz
+754 silly lockFile 31af5ea0-express-logger-0-0-2-package-tgz tar:///Users/nimahajan/.npm/express-logger/0.0.2/package.tgz
+755 verbose tar pack [ '/Users/nimahajan/.npm/express-store/0.0.4/package.tgz',
+755 verbose tar pack   '/var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/package' ]
+756 verbose tarball /Users/nimahajan/.npm/express-store/0.0.4/package.tgz
+757 verbose folder /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/package
+758 silly lockFile 226aa880-32383-0-8784885830245912-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/package
+759 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/package /Users/nimahajan/.npm/226aa880-32383-0-8784885830245912-package.lock
+760 silly lockFile 5c9ae1dd--express-store-0-0-4-package-tgz tar:///Users/nimahajan/.npm/express-store/0.0.4/package.tgz
+761 verbose lock tar:///Users/nimahajan/.npm/express-store/0.0.4/package.tgz /Users/nimahajan/.npm/5c9ae1dd--express-store-0-0-4-package-tgz.lock
+762 silly lockFile 4df0acfb-npm-express-logger-0-0-2-package /Users/nimahajan/.npm/express-logger/0.0.2/package
+763 verbose lock /Users/nimahajan/.npm/express-logger/0.0.2/package /Users/nimahajan/.npm/4df0acfb-npm-express-logger-0-0-2-package.lock
+764 silly lockFile 4df0acfb-npm-express-logger-0-0-2-package /Users/nimahajan/.npm/express-logger/0.0.2/package
+765 silly lockFile 4df0acfb-npm-express-logger-0-0-2-package /Users/nimahajan/.npm/express-logger/0.0.2/package
+766 verbose tar unpack /Users/nimahajan/.npm/express-logger/0.0.2/package.tgz
+767 silly lockFile 4697ff25-npm-express-logger-0-0-2-package tar:///Users/nimahajan/.npm/express-logger/0.0.2/package
+768 verbose lock tar:///Users/nimahajan/.npm/express-logger/0.0.2/package /Users/nimahajan/.npm/4697ff25-npm-express-logger-0-0-2-package.lock
+769 silly lockFile 31af5ea0-express-logger-0-0-2-package-tgz tar:///Users/nimahajan/.npm/express-logger/0.0.2/package.tgz
+770 verbose lock tar:///Users/nimahajan/.npm/express-logger/0.0.2/package.tgz /Users/nimahajan/.npm/31af5ea0-express-logger-0-0-2-package-tgz.lock
+771 silly gunzTarPerm modes [ '755', '644' ]
+772 silly gunzTarPerm extractEntry package.json
+773 silly gunzTarPerm extractEntry .npmignore
+774 silly gunzTarPerm extractEntry README.md
+775 verbose tar unpack /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132490-0.47371970186941326/tmp.tgz
+776 silly lockFile f1c73c5f-2490-0-47371970186941326-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132490-0.47371970186941326/package
+777 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132490-0.47371970186941326/package /Users/nimahajan/.npm/f1c73c5f-2490-0-47371970186941326-package.lock
+778 silly lockFile 03309bea-2490-0-47371970186941326-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132490-0.47371970186941326/tmp.tgz
+779 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132490-0.47371970186941326/tmp.tgz /Users/nimahajan/.npm/03309bea-2490-0-47371970186941326-tmp-tgz.lock
+780 silly gunzTarPerm modes [ '755', '644' ]
+781 silly lockFile 8d1cd629-132382-0-483725295169279-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/package
+782 silly lockFile 8d1cd629-132382-0-483725295169279-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.483725295169279/package
+783 silly lockFile 4df6c700-ajan-npm-dandy-0-0-5-package-tgz tar:///Users/nimahajan/.npm/dandy/0.0.5/package.tgz
+784 silly lockFile 4df6c700-ajan-npm-dandy-0-0-5-package-tgz tar:///Users/nimahajan/.npm/dandy/0.0.5/package.tgz
+785 silly gunzTarPerm extractEntry LICENSE
+786 silly gunzTarPerm extractEntry logger.js
+787 silly lockFile b2e40dcd-imahajan-npm-dandy-0-0-5-package /Users/nimahajan/.npm/dandy/0.0.5/package
+788 verbose lock /Users/nimahajan/.npm/dandy/0.0.5/package /Users/nimahajan/.npm/b2e40dcd-imahajan-npm-dandy-0-0-5-package.lock
+789 silly gunzTarPerm extractEntry package.json
+790 silly lockFile 9f1a52bc-2382-0-33666270785033703-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/package
+791 silly lockFile 9f1a52bc-2382-0-33666270785033703-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132382-0.33666270785033703/package
+792 silly lockFile 9b3ea763-xpress-rewrite-0-0-3-package-tgz tar:///Users/nimahajan/.npm/express-rewrite/0.0.3/package.tgz
+793 silly lockFile 9b3ea763-xpress-rewrite-0-0-3-package-tgz tar:///Users/nimahajan/.npm/express-rewrite/0.0.3/package.tgz
+794 silly lockFile b2e40dcd-imahajan-npm-dandy-0-0-5-package /Users/nimahajan/.npm/dandy/0.0.5/package
+795 silly lockFile b2e40dcd-imahajan-npm-dandy-0-0-5-package /Users/nimahajan/.npm/dandy/0.0.5/package
+796 verbose tar unpack /Users/nimahajan/.npm/dandy/0.0.5/package.tgz
+797 silly lockFile e6a8406e-imahajan-npm-dandy-0-0-5-package tar:///Users/nimahajan/.npm/dandy/0.0.5/package
+798 verbose lock tar:///Users/nimahajan/.npm/dandy/0.0.5/package /Users/nimahajan/.npm/e6a8406e-imahajan-npm-dandy-0-0-5-package.lock
+799 silly lockFile 4df6c700-ajan-npm-dandy-0-0-5-package-tgz tar:///Users/nimahajan/.npm/dandy/0.0.5/package.tgz
+800 verbose lock tar:///Users/nimahajan/.npm/dandy/0.0.5/package.tgz /Users/nimahajan/.npm/4df6c700-ajan-npm-dandy-0-0-5-package-tgz.lock
+801 silly gunzTarPerm extractEntry README.md
+802 silly gunzTarPerm extractEntry LICENSE
+803 silly lockFile bb41656b-2363-0-11923849582672119-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132363-0.11923849582672119/package
+804 silly lockFile bb41656b-2363-0-11923849582672119-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132363-0.11923849582672119/package
+805 silly gunzTarPerm modes [ '755', '644' ]
+806 silly lockFile a2ccdc21-2363-0-11923849582672119-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132363-0.11923849582672119/tmp.tgz
+807 silly lockFile a2ccdc21-2363-0-11923849582672119-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132363-0.11923849582672119/tmp.tgz
+808 silly lockFile f19d40c0-pm-express-rewrite-0-0-3-package /Users/nimahajan/.npm/express-rewrite/0.0.3/package
+809 verbose lock /Users/nimahajan/.npm/express-rewrite/0.0.3/package /Users/nimahajan/.npm/f19d40c0-pm-express-rewrite-0-0-3-package.lock
+810 verbose tar pack [ '/Users/nimahajan/.npm/transformjs/0.0.3/package.tgz',
+810 verbose tar pack   '/var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132363-0.11923849582672119/package' ]
+811 verbose tarball /Users/nimahajan/.npm/transformjs/0.0.3/package.tgz
+812 verbose folder /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132363-0.11923849582672119/package
+813 silly lockFile bb41656b-2363-0-11923849582672119-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132363-0.11923849582672119/package
+814 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132363-0.11923849582672119/package /Users/nimahajan/.npm/bb41656b-2363-0-11923849582672119-package.lock
+815 silly lockFile 40fd1ef2-pm-transformjs-0-0-3-package-tgz tar:///Users/nimahajan/.npm/transformjs/0.0.3/package.tgz
+816 verbose lock tar:///Users/nimahajan/.npm/transformjs/0.0.3/package.tgz /Users/nimahajan/.npm/40fd1ef2-pm-transformjs-0-0-3-package-tgz.lock
+817 silly lockFile f19d40c0-pm-express-rewrite-0-0-3-package /Users/nimahajan/.npm/express-rewrite/0.0.3/package
+818 silly lockFile f19d40c0-pm-express-rewrite-0-0-3-package /Users/nimahajan/.npm/express-rewrite/0.0.3/package
+819 verbose tar unpack /Users/nimahajan/.npm/express-rewrite/0.0.3/package.tgz
+820 silly lockFile ead5dc78-pm-express-rewrite-0-0-3-package tar:///Users/nimahajan/.npm/express-rewrite/0.0.3/package
+821 verbose lock tar:///Users/nimahajan/.npm/express-rewrite/0.0.3/package /Users/nimahajan/.npm/ead5dc78-pm-express-rewrite-0-0-3-package.lock
+822 silly lockFile 9b3ea763-xpress-rewrite-0-0-3-package-tgz tar:///Users/nimahajan/.npm/express-rewrite/0.0.3/package.tgz
+823 verbose lock tar:///Users/nimahajan/.npm/express-rewrite/0.0.3/package.tgz /Users/nimahajan/.npm/9b3ea763-xpress-rewrite-0-0-3-package-tgz.lock
+824 silly gunzTarPerm extractEntry package.json
+825 silly gunzTarPerm extractEntry underscore-min.js
+826 silly gunzTarPerm extractEntry underscore.js
+827 silly gunzTarPerm modes [ '755', '644' ]
+828 verbose tar unpack /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132312-0.6521666555199772/tmp.tgz
+829 silly lockFile 97561bd6-32312-0-6521666555199772-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132312-0.6521666555199772/package
+830 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132312-0.6521666555199772/package /Users/nimahajan/.npm/97561bd6-32312-0-6521666555199772-package.lock
+831 silly lockFile a9aa222e-32312-0-6521666555199772-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132312-0.6521666555199772/tmp.tgz
+832 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132312-0.6521666555199772/tmp.tgz /Users/nimahajan/.npm/a9aa222e-32312-0-6521666555199772-tmp-tgz.lock
+833 silly lockFile 4f387084-32429-0-4421765140723437-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132429-0.4421765140723437/package
+834 silly lockFile 4f387084-32429-0-4421765140723437-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132429-0.4421765140723437/package
+835 silly lockFile 226aa880-32383-0-8784885830245912-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/package
+836 silly lockFile 226aa880-32383-0-8784885830245912-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132383-0.8784885830245912/package
+837 silly gunzTarPerm extractEntry .npmignore
+838 silly gunzTarPerm extractEntry README.md
+839 silly lockFile 9479940a-32429-0-4421765140723437-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132429-0.4421765140723437/tmp.tgz
+840 silly lockFile 9479940a-32429-0-4421765140723437-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132429-0.4421765140723437/tmp.tgz
+841 silly lockFile 5c9ae1dd--express-store-0-0-4-package-tgz tar:///Users/nimahajan/.npm/express-store/0.0.4/package.tgz
+842 silly lockFile 5c9ae1dd--express-store-0-0-4-package-tgz tar:///Users/nimahajan/.npm/express-store/0.0.4/package.tgz
+843 silly gunzTarPerm modes [ '755', '644' ]
+844 http 200 https://registry.npmjs.org/uglify-js
+845 silly registry.get cb [ 200,
+845 silly registry.get   { vary: 'Accept',
+845 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+845 silly registry.get     etag: '"6CFO6WD43L7HT6IQ08U1YN9WU"',
+845 silly registry.get     date: 'Sun, 29 Sep 2013 18:08:52 GMT',
+845 silly registry.get     'content-type': 'application/json',
+845 silly registry.get     'content-length': '465149' } ]
+846 verbose tar pack [ '/Users/nimahajan/.npm/diskcache/0.0.16/package.tgz',
+846 verbose tar pack   '/var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132429-0.4421765140723437/package' ]
+847 verbose tarball /Users/nimahajan/.npm/diskcache/0.0.16/package.tgz
+848 verbose folder /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132429-0.4421765140723437/package
+849 silly lockFile 4f387084-32429-0-4421765140723437-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132429-0.4421765140723437/package
+850 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132429-0.4421765140723437/package /Users/nimahajan/.npm/4f387084-32429-0-4421765140723437-package.lock
+851 silly lockFile 6e00bd70-npm-diskcache-0-0-16-package-tgz tar:///Users/nimahajan/.npm/diskcache/0.0.16/package.tgz
+852 verbose lock tar:///Users/nimahajan/.npm/diskcache/0.0.16/package.tgz /Users/nimahajan/.npm/6e00bd70-npm-diskcache-0-0-16-package-tgz.lock
+853 http 200 https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+854 silly lockFile 19b31014-32362-0-6575100070331246-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/package
+855 silly lockFile 19b31014-32362-0-6575100070331246-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132362-0.6575100070331246/package
+856 silly gunzTarPerm extractEntry package.json
+857 silly lockFile e2b4f192-jan-npm-cssmin-0-4-1-package-tgz tar:///Users/nimahajan/.npm/cssmin/0.4.1/package.tgz
+858 silly lockFile e2b4f192-jan-npm-cssmin-0-4-1-package-tgz tar:///Users/nimahajan/.npm/cssmin/0.4.1/package.tgz
+859 silly lockFile 9e548f1f--npm-express-store-0-0-4-package /Users/nimahajan/.npm/express-store/0.0.4/package
+860 verbose lock /Users/nimahajan/.npm/express-store/0.0.4/package /Users/nimahajan/.npm/9e548f1f--npm-express-store-0-0-4-package.lock
+861 silly gunzTarPerm extractEntry .npmignore
+862 silly gunzTarPerm extractEntry LICENSE
+863 silly gunzTarPerm extractEntry dandy.js
+864 silly gunzTarPerm extractEntry .npmignore
+865 silly gunzTarPerm extractEntry README.md
+866 silly lockFile 9e548f1f--npm-express-store-0-0-4-package /Users/nimahajan/.npm/express-store/0.0.4/package
+867 silly lockFile 9e548f1f--npm-express-store-0-0-4-package /Users/nimahajan/.npm/express-store/0.0.4/package
+868 silly lockFile e451595b-mahajan-npm-cssmin-0-4-1-package /Users/nimahajan/.npm/cssmin/0.4.1/package
+869 verbose lock /Users/nimahajan/.npm/cssmin/0.4.1/package /Users/nimahajan/.npm/e451595b-mahajan-npm-cssmin-0-4-1-package.lock
+870 verbose tar unpack /Users/nimahajan/.npm/express-store/0.0.4/package.tgz
+871 silly lockFile c27a5492--npm-express-store-0-0-4-package tar:///Users/nimahajan/.npm/express-store/0.0.4/package
+872 verbose lock tar:///Users/nimahajan/.npm/express-store/0.0.4/package /Users/nimahajan/.npm/c27a5492--npm-express-store-0-0-4-package.lock
+873 silly lockFile 5c9ae1dd--express-store-0-0-4-package-tgz tar:///Users/nimahajan/.npm/express-store/0.0.4/package.tgz
+874 verbose lock tar:///Users/nimahajan/.npm/express-store/0.0.4/package.tgz /Users/nimahajan/.npm/5c9ae1dd--express-store-0-0-4-package-tgz.lock
+875 silly addNameRange number 2 { name: 'uglify-js', range: '*', hasData: true }
+876 silly addNameRange versions [ 'uglify-js',
+876 silly addNameRange   [ '0.0.1',
+876 silly addNameRange     '0.0.2',
+876 silly addNameRange     '0.0.3',
+876 silly addNameRange     '0.0.4',
+876 silly addNameRange     '0.0.5',
+876 silly addNameRange     '1.0.1',
+876 silly addNameRange     '1.0.2',
+876 silly addNameRange     '1.0.3',
+876 silly addNameRange     '1.0.4',
+876 silly addNameRange     '1.0.5',
+876 silly addNameRange     '1.0.6',
+876 silly addNameRange     '1.0.7',
+876 silly addNameRange     '1.1.0',
+876 silly addNameRange     '1.1.1',
+876 silly addNameRange     '1.2.0',
+876 silly addNameRange     '1.2.1',
+876 silly addNameRange     '1.2.2',
+876 silly addNameRange     '1.2.3',
+876 silly addNameRange     '1.2.4',
+876 silly addNameRange     '1.2.5',
+876 silly addNameRange     '1.2.6',
+876 silly addNameRange     '1.3.0',
+876 silly addNameRange     '1.3.1',
+876 silly addNameRange     '1.3.2',
+876 silly addNameRange     '1.3.3',
+876 silly addNameRange     '1.3.4',
+876 silly addNameRange     '2.2.0',
+876 silly addNameRange     '2.2.1',
+876 silly addNameRange     '2.2.2',
+876 silly addNameRange     '2.2.3',
+876 silly addNameRange     '2.2.4',
+876 silly addNameRange     '2.2.5',
+876 silly addNameRange     '2.3.0',
+876 silly addNameRange     '2.3.1',
+876 silly addNameRange     '2.3.2',
+876 silly addNameRange     '2.3.3',
+876 silly addNameRange     '2.3.4',
+876 silly addNameRange     '2.3.5',
+876 silly addNameRange     '2.3.6',
+876 silly addNameRange     '1.3.5',
+876 silly addNameRange     '2.4.0' ] ]
+877 verbose addNamed [ 'uglify-js', '2.4.0' ]
+878 verbose addNamed [ '2.4.0', '2.4.0' ]
+879 silly lockFile 7d6882b8-uglify-js-2-4-0 uglify-js@2.4.0
+880 verbose lock uglify-js@2.4.0 /Users/nimahajan/.npm/7d6882b8-uglify-js-2-4-0.lock
+881 silly gunzTarPerm extractEntry bin/
+882 silly gunzTarPerm extractEntry bin/express
+883 silly lockFile e451595b-mahajan-npm-cssmin-0-4-1-package /Users/nimahajan/.npm/cssmin/0.4.1/package
+884 silly lockFile e451595b-mahajan-npm-cssmin-0-4-1-package /Users/nimahajan/.npm/cssmin/0.4.1/package
+885 silly gunzTarPerm modes [ '755', '644' ]
+886 silly lockFile 7425821f-pmjs-org-hascan-hascan-0-0-8-tgz https://registry.npmjs.org/hascan/-/hascan-0.0.8.tgz
+887 silly lockFile 7425821f-pmjs-org-hascan-hascan-0-0-8-tgz https://registry.npmjs.org/hascan/-/hascan-0.0.8.tgz
+888 silly lockFile 675e0059-rg-uglify-js-uglify-js-2-4-0-tgz https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.0.tgz
+889 verbose lock https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.0.tgz /Users/nimahajan/.npm/675e0059-rg-uglify-js-uglify-js-2-4-0-tgz.lock
+890 verbose tar unpack /Users/nimahajan/.npm/cssmin/0.4.1/package.tgz
+891 silly lockFile 9d15ebdc-mahajan-npm-cssmin-0-4-1-package tar:///Users/nimahajan/.npm/cssmin/0.4.1/package
+892 verbose lock tar:///Users/nimahajan/.npm/cssmin/0.4.1/package /Users/nimahajan/.npm/9d15ebdc-mahajan-npm-cssmin-0-4-1-package.lock
+893 silly lockFile e2b4f192-jan-npm-cssmin-0-4-1-package-tgz tar:///Users/nimahajan/.npm/cssmin/0.4.1/package.tgz
+894 verbose lock tar:///Users/nimahajan/.npm/cssmin/0.4.1/package.tgz /Users/nimahajan/.npm/e2b4f192-jan-npm-cssmin-0-4-1-package-tgz.lock
+895 silly lockFile df5cef88-hascan-0-0-8 hascan@0.0.8
+896 silly lockFile df5cef88-hascan-0-0-8 hascan@0.0.8
+897 silly lockFile 1431788a-hascan hascan@
+898 silly lockFile 1431788a-hascan hascan@
+899 verbose addRemoteTarball [ 'https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.0.tgz',
+899 verbose addRemoteTarball   'a5f2b6b1b817fb34c16a04234328c89ba1e77137' ]
+900 silly gunzTarPerm extractEntry errors.js
+901 verbose about to build /Users/nimahajan/Desktop/Hapus/node/NodeMongoExpressWebApp/node_modules/app.js
+902 info /Users/nimahajan/Desktop/Hapus/node/NodeMongoExpressWebApp/node_modules/app.js unbuild
+903 info preuninstall app.js@0.0.16
+904 silly gunzTarPerm extractEntry LICENSE
+905 silly gunzTarPerm extractEntry rewrite.js
+906 info retry fetch attempt 1 at 11:08:53
+907 verbose fetch to= /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478133153-0.6303312547970563/tmp.tgz
+908 silly gunzTarPerm modes [ '755', '644' ]
+909 info uninstall app.js@0.0.16
+910 http GET https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.0.tgz
+911 silly gunzTarPerm extractEntry package.json
+912 silly gunzTarPerm extractEntry History.md
+913 silly gunzTarPerm extractEntry index.js
+914 verbose true,/Users/nimahajan/Desktop/Hapus/node/NodeMongoExpressWebApp/node_modules,/Users/nimahajan/Desktop/Hapus/node/NodeMongoExpressWebApp/node_modules unbuild app.js@0.0.16
+915 verbose /Users/nimahajan/Desktop/Hapus/node/NodeMongoExpressWebApp/node_modules/.bin,[object Object] binRoot
+916 info postuninstall app.js@0.0.16
+917 silly gunzTarPerm extractEntry package.json
+918 silly gunzTarPerm extractEntry .npmignore
+919 silly gunzTarPerm extractEntry README.md
+920 silly lockFile 4697ff25-npm-express-logger-0-0-2-package tar:///Users/nimahajan/.npm/express-logger/0.0.2/package
+921 silly lockFile 4697ff25-npm-express-logger-0-0-2-package tar:///Users/nimahajan/.npm/express-logger/0.0.2/package
+922 silly lockFile 31af5ea0-express-logger-0-0-2-package-tgz tar:///Users/nimahajan/.npm/express-logger/0.0.2/package.tgz
+923 silly lockFile 31af5ea0-express-logger-0-0-2-package-tgz tar:///Users/nimahajan/.npm/express-logger/0.0.2/package.tgz
+924 silly gunzTarPerm extractEntry lib/
+925 silly gunzTarPerm extractEntry lib/express.js
+926 silly gunzTarPerm extractEntry README.md
+927 silly gunzTarPerm extractEntry cssmin.js
+928 verbose chmod /Users/nimahajan/.npm/express-logger/0.0.2/package.tgz 644
+929 verbose chown /Users/nimahajan/.npm/express-logger/0.0.2/package.tgz [ 501, 20 ]
+930 verbose tar unpack /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132493-0.890125417849049/tmp.tgz
+931 silly lockFile 144cc06f-132493-0-890125417849049-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132493-0.890125417849049/package
+932 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132493-0.890125417849049/package /Users/nimahajan/.npm/144cc06f-132493-0-890125417849049-package.lock
+933 silly lockFile d7f203a7-132493-0-890125417849049-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132493-0.890125417849049/tmp.tgz
+934 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132493-0.890125417849049/tmp.tgz /Users/nimahajan/.npm/d7f203a7-132493-0-890125417849049-tmp-tgz.lock
+935 silly lockFile a610e4c8--logger-express-logger-0-0-2-tgz https://registry.npmjs.org/express-logger/-/express-logger-0.0.2.tgz
+936 silly lockFile a610e4c8--logger-express-logger-0-0-2-tgz https://registry.npmjs.org/express-logger/-/express-logger-0.0.2.tgz
+937 silly lockFile af035821-express-logger-0-0-2 express-logger@0.0.2
+938 silly lockFile af035821-express-logger-0-0-2 express-logger@0.0.2
+939 silly gunzTarPerm extractEntry LICENSE
+940 silly gunzTarPerm extractEntry cache.js
+941 silly lockFile 00af04ae-express-logger express-logger@
+942 silly lockFile 00af04ae-express-logger express-logger@
+943 silly gunzTarPerm modes [ '755', '644' ]
+944 verbose tar unpack /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132701-0.7350969626568258/tmp.tgz
+945 silly lockFile 78ada615-32701-0-7350969626568258-package tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132701-0.7350969626568258/package
+946 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132701-0.7350969626568258/package /Users/nimahajan/.npm/78ada615-32701-0-7350969626568258-package.lock
+947 silly lockFile f3b29885-32701-0-7350969626568258-tmp-tgz tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132701-0.7350969626568258/tmp.tgz
+948 verbose lock tar:///var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132701-0.7350969626568258/tmp.tgz /Users/nimahajan/.npm/f3b29885-32701-0-7350969626568258-tmp-tgz.lock
+949 silly gunzTarPerm extractEntry bin/cssmin
+950 silly gunzTarPerm extractEntry tests/launcher.js
+951 silly gunzTarPerm modes [ '755', '644' ]
+952 silly gunzTarPerm extractEntry package.json
+953 silly gunzTarPerm extractEntry package.json
+954 silly gunzTarPerm extractEntry .npmignore
+955 silly gunzTarPerm extractEntry README.md
+956 silly gunzTarPerm extractEntry tests/data/bug_5.css
+957 silly gunzTarPerm extractEntry tests/data/bug_5.min.css
+958 error Error: shasum check failed for /var/folders/d5/qz_7_twn1gg3prcdktkkh_vw0000gn/T/npm-20576-BVg4rl2_/1380478132334-0.5200186467263848/tmp.tgz
+958 error Expected: 4129add11ce89539749a468d309e9ff8cb37ea9a
+958 error Actual:   08fe0fbae6bb07434c316f5ce36a749b11feab0d
+958 error     at /usr/local/lib/node_modules/npm/node_modules/sha/index.js:38:8
+958 error     at ReadStream.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/sha/index.js:85:7)
+958 error     at ReadStream.EventEmitter.emit (events.js:125:20)
+958 error     at _stream_readable.js:896:16
+958 error     at process._tickCallback (node.js:316:11)
+959 error If you need help, you may report this log at:
+959 error     <http://github.com/isaacs/npm/issues>
+959 error or email it to:
+959 error     <npm-@googlegroups.com>
+960 error System Darwin 12.5.0
+961 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "app.js"
+962 error cwd /Users/nimahajan/Desktop/Hapus/node/NodeMongoExpressWebApp
+963 error node -v v0.11.8-pre
+964 error npm -v 1.3.11
+965 verbose exit [ 1, true ]

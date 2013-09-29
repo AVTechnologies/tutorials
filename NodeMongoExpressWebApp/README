@@ -1,0 +1,10 @@
+Node App With Express 
+
+Run following commands to run
+
+# npm install
+# node app.js
+
+Then in browser - http://localhost:8080/
+
+
