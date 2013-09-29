@@ -5,6 +5,13 @@ Run following commands to run
 # npm install
 # node app.js
 
-Then in browser - http://localhost:8080/
+MongoDB Setup Instructions:
+http://www.mkyong.com/mongodb/how-to-install-mongodb-on-mac-os-x/
+http://www.mkyong.com/mongodb/how-to-create-database-or-collection-in-mongodb/
+
+Name of Database - School
+Name of Collection - Student
+
+Then in browser - http://localhost:8080/students
 
 
