@@ -4,8 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>MEAN Stack Example</title>
-  <link rel="stylesheet" href="css/style.css">
+ 
   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="js/angular.min.js"></script>
   <script src="js/controllers.js"></script>
@@ -13,8 +14,15 @@
 </head>
 
 <body ng-controller="StudentListCtrl">
-  <h1>School Database</h1>
- 
+  <h1>School -MEAN Stack Example</h1>
+  <br/>
+  <div class="row">
+     <div class="col-lg-2">
+      <!--Sidebar content-->
+      Search: <input class="form-control" ng-model="query"/>
+    </div>
+  </div> 
+  <br/>
   <div class = "row">
         <!--Body content-->
         <table class="table table-bordered">
@@ -26,7 +34,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="student in students">
+          <tr ng-repeat="student in students | filter:query">
             <td>{{student.rollnumber}}</td>
             <td>{{student.firstname}}</td>
             <td>{{student.lastname}}</td>
