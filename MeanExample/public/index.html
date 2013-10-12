@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" ng-app="schoolApp">
+
+<head>
+  <meta charset="utf-8">
+  <title>MEAN Stack Example</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body ng-controller="StudentListCtrl">
+  <h1>School Database</h1>
+ 
+  <div class = "row">
+        <!--Body content-->
+        <table class="table table-bordered">
+          <thead>
+          <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="student in students">
+            <td>{{student.rollnumber}}</td>
+            <td>{{student.firstname}}</td>
+            <td>{{student.lastname}}</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+
+ <h1>Add New Student</h1>
+  <div class = "row">
+     <form ng-submit="addStudent()">
+      <div class="col-lg-2">
+          <input class="form-control" type="number" ng-model="rollnumber"  size="30" placeholder="Roll Number">
+      </div>
+      <div class="col-lg-2">
+          <input class="form-control" type="text" ng-model="firstnametext"  size="30" placeholder="First Name">
+      </div>
+      <div class="col-lg-2">
+          <input class="form-control" type="text" ng-model="lastnametext"  size="30" placeholder="Last Name">
+      </div>
+      <div class="col-lg-1">
+          <input class="btn btn-default btn-primary" type="submit" value="add">
+      </div>
+      </form>
+  </div>  
+
+</body>
+</html>

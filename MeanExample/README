@@ -1,0 +1,17 @@
+1. Create a Database with following collections - 
+
+# mongod --dbpath ~/Desktop/Hapus/mongo/data/db --rest --jsonp
+
+Database Name - school
+Collection Name - students
+
+Sample Data Object -
+	{
+		firstname: "nilesh",
+		lastname: "mahajan",
+		rollnumber: 101
+	}
+
+
+2. Then 
+http://localhost:3000/index.html
